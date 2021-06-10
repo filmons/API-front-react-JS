@@ -1,0 +1,22 @@
+
+for building IMAGe go to mon-app=> src poste => docker build -t <name of ur image> getting-started .
+
+docker ps => ;)like git status
+
+docker images to se all image was creat by doker
+f
+for runing Docker => go to mon-app=> src poste => docker run -dp 3000:3000 getting-started
+
+
+for login
+
+docker login 
+
+user name = hermela
+pasword = filmonseare
+then 
+docker tag
+and for taging => docker tag getting-started hermela12/app
+laste for pushing =>  docker push hermela12/app
+
+<https://www.youtube.com/watch?v=lsrbnlZnQpM> for model

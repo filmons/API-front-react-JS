@@ -1,0 +1,10 @@
+.siguputton a{
+    border: 1px solid;
+    border-radius: 50px;
+    background-color: tomato;
+
+}
+.signupbtn {
+    float: left;
+    width: 13%;
+    }

@@ -3,6 +3,50 @@ import axios from 'axios'
 import '../assets/login.css'
 
 class Login extends React.Component{
+    constructor(props) {
+        super(props);
+    
+        this.state = {
+          email: '',
+          password: '',
+          errorLogin: false
+        };
+      }
+    
+      handleChange = (event) => {
+        this.setState({
+          [event.target.name]: event.target.value,
+        });
+      };
+    
+      handleClick = () => {
+        const options = {
+          email: this.state.email,
+          password: this.state.password,
+        };
+    
+        axios
+          .post('http://localhost:8000/V1/sigin', options, {
+            headers: { 'content-type': 'application/json' },
+          })
+          .then((data) => {
+            console.log(data);
+            if(data.status === 200){
+                 this.props.history.push('/');
+    
+            }else{
+                this.setState({
+                    errorLogin: true
+                })
+            }
+            this.props.history.push('/');
+          })
+          .catch((error) => console.log(error));
+          console.log(options);
+
+      };
+    
+    
 
     render(){
         return(
@@ -10,14 +54,14 @@ class Login extends React.Component{
         <div className="container">
         <h1>Login</h1>
         <div className="lebls">
-        <label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email" required />
+        <label htmlFor="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required onChange={this.handleChange}/>
       
           
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required />
+        <label htmlFor="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" required onChange={this.handleChange}/>
 
-        <button type="submit" className="signupbtn">Login</button>
+        <button onClick={this.handleClick} type="submit" className="signupbtn">Login</button>
 
         </div>
         </div>

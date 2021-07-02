@@ -6,7 +6,6 @@
     box-sizing: 0;
 }
 body{
-    
     font-family: monospace;
 }
 nav{
@@ -34,7 +33,7 @@ nav ul li {
 
 }
 nav ul li a {
-    /* color: white; */
+    color: white;
     font-size: 17px;
     padding:  7px 13px;
     border-radius: 3px;
@@ -84,6 +83,7 @@ a.active, a:hover{
         left: -100%;
         text-align: center;
         transition: all .5s;
+        
     }
     nav ul li {
         display: block;

@@ -24,7 +24,8 @@ class Login extends React.Component{
           email: this.state.email,
           password: this.state.password,
         };
-    
+       
+        
         axios
           .post('http://localhost:8000/V1/sigin', options, {
             headers: { 'content-type': 'application/json' },
@@ -39,14 +40,13 @@ class Login extends React.Component{
                     errorLogin: true
                 })
             }
-            this.props.history.push('/');
+            //this.props.history.push('/');
           })
           .catch((error) => console.log(error));
           console.log(options);
 
       };
-    
-    
+
 
     render(){
         return(

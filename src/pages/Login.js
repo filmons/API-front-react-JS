@@ -52,7 +52,9 @@ class Login extends React.Component{
         return(
         <section>
         <div className="container">
-        <h1>Login</h1>
+            <div className="form_log">
+        <h1 className>Login</h1>
+        </div>
         <div className="lebls">
         <label htmlFor="email"><b>Email</b></label>
         <input type="text" placeholder="Enter Email" name="email" required onChange={this.handleChange}/>

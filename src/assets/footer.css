@@ -4,7 +4,8 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: antiquewhite;    
+    background-color: #B5EAEA; 
+    margin-top: 11rem;   
 }
  .sociaux{
      display: flex;
@@ -14,7 +15,13 @@ footer{
  }
  .sociaux img {
      width: 45px;
-     margin: 4%;
+     margin: 2%;
      cursor: pointer;
+ }
+ footer p {
+     padding: 3rem;
+ }
+ .foot_ing{
+     width: 50px;
  }
  

@@ -1,8 +1,10 @@
-import React from 'react'
-import axios from 'axios';
-import Nav from '../components/Nav'
+import React from 'react';
+//import axios from 'axios';
+import Nav from '../components/Nav';
 import '../assets/Home.css'
-import MapAp from '../components/MapAp'
+import Slide from '../components/index';
+
+
 
 
 
@@ -14,7 +16,7 @@ class Home extends React.Component{
         <header className="App-header">
         <div></div>
         </header>
-        <MapAp/>
+        <Slide/>
     <div className="fir-para">
 <h1>L'Esprit Saint, virgule de l'âme</h1>
     <p>

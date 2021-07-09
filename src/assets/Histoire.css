@@ -1,0 +1,17 @@
+.continer_histoire{
+    padding: 6rem 1rem 1rem;
+    display: flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 8rem 17rem 3rem;
+
+}
+
+.img_structure{
+    width: 357px;
+    height: 533px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}

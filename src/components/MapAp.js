@@ -7,7 +7,7 @@ import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
 export class MapAp extends Component {
 	render() {
 		return (
-			<>
+			<div>
 				<div className="mapouter">
 					<Map google={this.props.google} zoom={14}>
 						<Marker onClick={this.onMarkerClick} name={"Current location"} />
@@ -17,7 +17,7 @@ export class MapAp extends Component {
 				</div>
 				
 				<p>text</p>
-			</>
+			</div>
 		);
 	}
 }

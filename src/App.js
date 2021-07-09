@@ -1,5 +1,5 @@
 import React from 'react';
-import  '../src/assets/App.css'
+import  './assets/App.css'
 import Home from './pages/Home'
 import Nav from './components/Nav';
 import Signup from './pages/Signup';

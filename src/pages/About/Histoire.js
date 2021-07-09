@@ -1,12 +1,15 @@
 import React from 'react'
 import "../../assets/Histoire.css"
+import photo from '../../source/equipes/archi.webp';
+
 
 class Histoire extends React.Component {
     
     render() {
         return (
-            <div>
-            <div className="fir-para">
+            <div className="continer_histoire">
+
+            
             <h1>L'Esprit Saint, virgule de l'âme</h1>
                 <p>
             L'Esprit Saint, virgule de l'âme
@@ -29,9 +32,10 @@ class Histoire extends React.Component {
             Viens porter conseil aux témoins que nous sommes.
             Viens !
             </p>
-            </div>
-            <div className="sec-para">
-            <h1>L'Esprit Saint, virgule de l'âme</h1>
+          
+
+            
+             <img  className="img_structure" src={photo} />
             <p>
             L'Esprit Saint, virgule de l'âme
             Vous avez repéré, dans la lecture d’un texte, ces signes à peine visibles qui permettent de respirer : les virgules ! Très discrets, ces traits courbés juxtaposent les propositions, les ordonnent les unes aux autres. Utiles, indispensables, les virgules donnent à l’intérieur d’une phrase de pauser les mots, peser les paroles, percevoir leur légère pesanteur et ainsi servir leur sens.
@@ -41,10 +45,8 @@ class Histoire extends React.Component {
             Viens ponctuer de ta chaleureuse présence nos inspirations de chaque instant.
             Viens porter conseil aux témoins que nous sommes.
             Viens !
-            </p>
-            </div>
-            <div className="th-para">
-            <h1>L'Esprit Saint, virgule de l'âme</h1>
+            </p>  
+            
              <p>
             L'Esprit Saint, virgule de l'âme
             Vous avez repéré, dans la lecture d’un texte, ces signes à peine visibles qui permettent de respirer : les virgules ! Très discrets, ces traits courbés juxtaposent les propositions, les ordonnent les unes aux autres. Utiles, indispensables, les virgules donnent à l’intérieur d’une phrase de pauser les mots, peser les paroles, percevoir leur légère pesanteur et ainsi servir leur sens.
@@ -55,7 +57,7 @@ class Histoire extends React.Component {
             Viens porter conseil aux témoins que nous sommes.
             Viens !</p>
             </div>
-                </div>
+              
 
             
         )

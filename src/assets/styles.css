@@ -1,0 +1,13 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+img{
+  width: 24rem;
+    height: 20rem;
+    padding: 1rem;
+}

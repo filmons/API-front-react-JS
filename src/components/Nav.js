@@ -1,6 +1,6 @@
 // import React from 'react'
 import React from "react";
-import "../assets/Nav.css";
+import "../assets/nav.css";
 import { useState } from "react";
 
 function Nav() {
@@ -15,15 +15,15 @@ function Nav() {
 			<div className="navbar_logo">Paroisse Catholique Emanuel de Montreuil</div>
 			<ul className="navbar_links">
 				<li className="navbar_item">
-					<a href="/" className="navbar_link" slideInDown-1>
+					<a href="/" className="navbar_link" >
 						home
 					</a>
 				</li>
 
 				<div className="dropdown">
 					<button className="dropbtn">
-						<li className="navbar_item" slideInDown-2>
-							<a href="/" className="navbar_link">
+						<li className="navbar_item" >
+							<a href="#" className="navbar_link">
 								Abut As
 							</a>
 						</li>
@@ -32,8 +32,8 @@ function Nav() {
 					<div className="dropdown-content">
 						<a href="/Histoire">Histoire et Architecture</a>
 						<a href="/Equipe">Equipes </a>
-						<a href="#">Aumônerie</a>
-						<a href="#">Scoutisme</a>
+						<a href="/Aumonerie">Aumônerie</a>
+						<a href="/Scoutisme">Scoutisme</a>
 					</div>
 				</div>
 				{/* <li className="navbar_item" slideInDown-3>
@@ -45,47 +45,48 @@ function Nav() {
 				<div className="dropdown">
 					<button className="dropbtn">
 						<li className="navbar_item">
-							<a href="/" className="navbar_link">
+							<a href="#" className="navbar_link">
 								Enfance et jeunesse
 							</a>
 						</li>
 						<i className="fa fa-caret-down"></i>
 					</button>
 					<div className="dropdown-content">
-						<a href="#">Catéchisme</a>
-						<a href="#">Eveil à la foi </a>
-						<a href="#">Aumônerie</a>
-						<a href="#">Scoutisme</a>
+						<a href="/Catechisme">Catéchisme</a>
+						<a href="/Eveil">Eveil à la foi </a>
+						<a href="/Aumônerie">Aumônerie</a>
+						<a href="/Scoutisme">Scoutisme</a>
 					</div>
 				</div>
-				<li className="navbar_item" slideInDown-4>
-					<a href="/Signup" className="navbar_link">
-						Signup
-					</a>
-                    </li>
+				
                     
 					<div className="dropdown">
 						<button className="dropbtn">
-							<li className="navbar_item" slideInDown-3>
-								<a href="/" className="navbar_link">
+							<li className="navbar_item" >
+								<a href="#" className="navbar_link">
 									Sacrements et célébrations
 								</a>
 							</li>
 							<i className="fa fa-caret-down"></i>
 						</button>
 						<div className="dropdown-content">
-							<a href="#">Baptême</a>
-							<a href="#">Mariage</a>
-							<a href="#">Communion</a>
-							<a href="#">Confirmation</a>
-							<a href="#">Réconciliation</a>
-							<a href="#">Obsèques</a>
-							<a href="#">Onction des Malades</a>
-							<a href="#">Ordination</a>
+							<a href="/Bapteme">Baptême</a>
+							<a href="/Mariage">Mariage</a>
+							<a href="/Communion">Communion</a>
+							<a href="/Confirmation">Confirmation</a>
+							<a href="/Reconciliation">Réconciliation</a>
+							<a href="/Obseques">Obsèques</a>
+							<a href="/Onction">Onction des Malades</a>
+							<a href="/Ordination">Ordination</a>
 						</div>
 					</div>
+					<li className="navbar_item" >
+					<a href="/Signup" className="navbar_link">
+						Signup
+					</a>
+                    </li>
 				
-				<li className="navbar_item" slideInDown-5>
+				<li className="navbar_item" >
 					<a href="/Login" className="navbar_link">
 						Login
 					</a>

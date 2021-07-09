@@ -1,14 +1,16 @@
-/* .siguputton a{
-    border: 1px solid;
-    border-radius: 50px;
-    background-color: tomato;
-
+.map_img{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
 }
-.signupbtn {
-    float: left;
-    width: 13%;
-    } */
-    .all-section{
+
+img{
+   
+}
+
+
+.all-section{
         
     }
     
@@ -20,10 +22,11 @@
 }
 p {
     margin-bottom: 1rem;
+    font-size: 20px;
     
 }
 
 .main{
     min-height: 200vh;
-    padding:6rem 1rem 1rem ;
+    padding:6rem 20rem 1rem ;
 }

@@ -81,9 +81,11 @@ class signup extends React.Component {
 	render() {
 		return (
 			<div className="container">
+				<div className="form">
 				<h1>Sign Up</h1>
 				<p>Please fill in this form to create an account.</p>
 				<hr />
+				</div>
 				<div className="lebls">
 					<label htmlFor="first_name">
 						<b>first Name</b>
@@ -190,7 +192,7 @@ class signup extends React.Component {
 
 					<div className="clearfix">
 						<p>
-							<button type="button" className="cancelbtn">
+							<button type="button" className="cancelbtn" >
 								Cancel
 							</button>
 							<button

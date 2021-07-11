@@ -1,6 +1,6 @@
 // import React from 'react'
 import React from "react";
-import "../assets/nav.css";
+import "../assets/component/nav.css";
 import { useState } from "react";
 
 function Nav() {
@@ -32,8 +32,8 @@ function Nav() {
 					<div className="dropdown-content">
 						<a href="/Histoire">Histoire et Architecture</a>
 						<a href="/Equipe">Equipes </a>
-						<a href="/Aumonerie">Aumônerie</a>
-						<a href="/Scoutisme">Scoutisme</a>
+						<a href="/Aumonerie">cours</a>
+						<a href="/Scoutisme">contact</a>
 					</div>
 				</div>
 				{/* <li className="navbar_item" slideInDown-3>
@@ -54,7 +54,7 @@ function Nav() {
 					<div className="dropdown-content">
 						<a href="/Catechisme">Catéchisme</a>
 						<a href="/Eveil">Eveil à la foi </a>
-						<a href="/Aumônerie">Aumônerie</a>
+						<a href="/Aumonerie">Aumônerie</a>
 						<a href="/Scoutisme">Scoutisme</a>
 					</div>
 				</div>

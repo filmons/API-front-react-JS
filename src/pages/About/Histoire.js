@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../assets/Histoire.css"
+import "../../assets/About/Histoire.css"
 import photo from '../../source/equipes/archi.webp';
 
 

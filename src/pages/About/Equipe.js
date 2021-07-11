@@ -1,5 +1,5 @@
 import React from 'react';
-import "../../assets/Equipes.css";
+import "../../assets/About/Equipes.css";
 import photo from '../../source/equipes/eglise.png';
 
 
@@ -14,7 +14,7 @@ class Equipe extends React.Component {
             
             <div className="fir-para">
             <h1>L'Esprit Saint, virgule de l'âme</h1>
-            <img src={photo} />
+            <img src={photo} alt="photo des éqipe" />
            </div>
            <div className="fir-para">
             <h1>L'Esprit Saint, virgule de l'âme</h1>
@@ -22,28 +22,28 @@ class Equipe extends React.Component {
            </div>
            <div className="fir-para">
             <h1>L'Esprit Saint, virgule de l'âme</h1>
-            <img src={photo} />
+            <img src={photo}alt="photo des éqipe" />
            </div>
            <div className="fir-para">
             <h1>L'Esprit Saint, virgule de l'âme</h1>
-            <img src={photo} />
+            <img src={photo}alt="photo des éqipe" />
            </div>
            <div className="fir-para">
             <h1>L'Esprit Saint, virgule de l'âme</h1>
-            <img src={photo} />
+            <img src={photo} alt="photo des éqipe"/>
            </div>
            <div className="fir-para">
             <h1>L'Esprit Saint, virgule de l'âme</h1>
-            <img src={photo} />
+            <img src={photo} alt="photo des éqipe"/>
            </div>
            <div className="fir-para">
             <h1>L'Esprit Saint, virgule de l'âme</h1>
-            <img src={photo} />
+            <img src={photo} alt="photo des éqipe"/>
            </div>
 
             <div className="th-para">
             <h1>L'Esprit Saint, virgule de l'âme</h1>
-            <img src={photo} />
+            <img src={photo} alt="photo des éqipe"/>
             </div>
             
         </div>

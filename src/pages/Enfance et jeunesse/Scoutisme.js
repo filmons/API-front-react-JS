@@ -1,10 +1,10 @@
 import React from 'react'
 
- class Eveil extends React.Component {
+class Scoutisme extends React.Component {
     render() {
         return (
             <div>
-                    <div className="">
+                    <div className="fir-para">
 <h1>L'Esprit Saint, virgule de l'âme</h1>
     <p>
 L'Esprit Saint, virgule de l'âme
@@ -33,4 +33,4 @@ Viens !
     }
 }
 
-export default Eveil
+export default Scoutisme

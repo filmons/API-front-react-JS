@@ -1,6 +1,6 @@
 import React from 'react'
 //import {withRouter} from 'react-router-dom'
-import '../assets/footer.css'
+import '../assets/component/footer.css'
 import Facebook from '../source/Facebook.svg'
 import icon from '../source/icon.png'
 

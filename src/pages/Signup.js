@@ -184,7 +184,7 @@ class signup extends React.Component {
 
 					<p>
 						By creating an account you agree to our{" "}
-						<a href="#" style={{ color: "dodgerblue " }}>
+						<a href="/polisie" style={{ color: "dodgerblue " }}>
 							Terms & Privacy
 						</a>
 						.

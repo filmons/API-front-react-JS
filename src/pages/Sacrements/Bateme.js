@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import '../../assets/Sacrement/Bateme.css';
+import '../../assets/Sacrement/Bateme.css';
 
 class Bateme extends React.Component {
     render() {

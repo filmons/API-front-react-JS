@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/signup.css";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 class signup extends React.Component {
 	constructor(props) {
@@ -192,9 +193,11 @@ class signup extends React.Component {
 
 					<div className="clearfix">
 						<p>
+						<Link to="/">
 							<button type="button" className="cancelbtn" >
 								Cancel
 							</button>
+							</Link>
 							<button
 								onClick={this.handleClick}
 								type="submit"

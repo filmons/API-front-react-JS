@@ -1,0 +1,19 @@
+.container_calss{
+    display: flex; 
+    justify-content: center;  
+    padding: 7rem 0rem 4rem;
+}
+.class-card{
+
+}
+.item{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center; 
+    margin-left: 5rem;
+    margin-right: 5rem;
+}

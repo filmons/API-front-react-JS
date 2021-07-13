@@ -2,6 +2,7 @@
 import React from "react";
 import "../assets/component/nav.css";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Nav() {
 	const [showLinks, setShowLinks] = useState(false);
@@ -12,50 +13,43 @@ function Nav() {
 	console.log(showLinks);
 	return (
 		<nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"} `}>
-			<div className="navbar_logo">Paroisse Catholique Emanuel de Montreuil</div>
+			<div className="navbar_logo"><Link to="/" className="navbar_link" >
+			Paroisse Catholique Emanuel de Montreuil
+					</Link> </div>
 			<ul className="navbar_links">
-				<li className="navbar_item">
-					<a href="/" className="navbar_link" >
-						home
-					</a>
-				</li>
+				
 
 				<div className="dropdown">
 					<button className="dropbtn">
 						<li className="navbar_item" >
-							<a href="#" className="navbar_link">
+							<Link to="#" className="navbar_link">
 								Abut As
-							</a>
+							</Link>
 						</li>
 						<i className="fa fa-caret-down"></i>
 					</button>
 					<div className="dropdown-content">
-						<a href="/Histoire">Histoire et Architecture</a>
-						<a href="/Equipe">Equipes </a>
-						<a href="/Aumonerie">cours</a>
-						<a href="/Scoutisme">contact</a>
+						<Link to="/Histoire">Histoire et Architecture</Link>
+						<Link to="/Equipe">Equipes </Link>
+						<Link to="/Cours">Cours</Link>
+						<Link to="/Contact">Contact</Link>
 					</div>
 				</div>
-				{/* <li className="navbar_item" slideInDown-3>
-					<a href="/" className="navbar_link">
-						bala
-					</a>
-				</li> */}
 
 				<div className="dropdown">
 					<button className="dropbtn">
 						<li className="navbar_item">
-							<a href="#" className="navbar_link">
+							<Link to="#" className="navbar_link">
 								Enfance et jeunesse
-							</a>
+							</Link>
 						</li>
 						<i className="fa fa-caret-down"></i>
 					</button>
 					<div className="dropdown-content">
-						<a href="/Catechisme">Catéchisme</a>
-						<a href="/Eveil">Eveil à la foi </a>
-						<a href="/Aumonerie">Aumônerie</a>
-						<a href="/Scoutisme">Scoutisme</a>
+						<Link to="/Cristianisme">Cristianisme</Link>
+						<Link to="/Eveil">Eveil à la foi </Link>
+						<Link to="/Aumonerie">Aumônerie</Link>
+						<Link to="/Scoutisme">Scoutisme</Link>
 					</div>
 				</div>
 				
@@ -63,33 +57,33 @@ function Nav() {
 					<div className="dropdown">
 						<button className="dropbtn">
 							<li className="navbar_item" >
-								<a href="#" className="navbar_link">
+								<Link to="#" className="navbar_link">
 									Sacrements et célébrations
-								</a>
+								</Link>
 							</li>
 							<i className="fa fa-caret-down"></i>
 						</button>
 						<div className="dropdown-content">
-							<a href="/Bapteme">Baptême</a>
-							<a href="/Mariage">Mariage</a>
-							<a href="/Communion">Communion</a>
-							<a href="/Confirmation">Confirmation</a>
-							<a href="/Reconciliation">Réconciliation</a>
-							<a href="/Obseques">Obsèques</a>
-							<a href="/Onction">Onction des Malades</a>
-							<a href="/Ordination">Ordination</a>
+							<Link to="/Bateme">Baptême</Link>
+							<Link to="/Mariage">Mariage</Link>
+							<Link to="/Comunition">Communion</Link>
+							<Link to="/Confirmation">Confirmation</Link>
+							<Link to="/Reconsltation">Réconciliation</Link>
+							<Link to="/Obseques">Obsèques</Link>
+							<Link to="/Oncation">Onction des Malades</Link>
+							<Link to="/Ordination">Ordination</Link>
 						</div>
 					</div>
 					<li className="navbar_item" >
-					<a href="/Signup" className="navbar_link">
+					<Link to="/Signup" className="navbar_link">
 						Signup
-					</a>
+					</Link>
                     </li>
 				
 				<li className="navbar_item" >
-					<a href="/Login" className="navbar_link">
+					<Link to="/Login" className="navbar_link">
 						Login
-					</a>
+					</Link>
 				</li>
 			</ul>
 			<button className="navbar_burger" onClick={handelShowLinks}>

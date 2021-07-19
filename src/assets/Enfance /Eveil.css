@@ -1,0 +1,11 @@
+.continer_cristaniseme{
+    
+    display: flex;
+    padding: 7rem 14rem 4rem;
+}
+.item_cristanism{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}

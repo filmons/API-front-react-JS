@@ -1,0 +1,17 @@
+.conuner_scoutisme{
+   
+    display: flex;
+    padding: 7rem 14rem 4rem;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.item_scoutisme{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}

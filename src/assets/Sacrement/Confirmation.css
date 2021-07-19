@@ -1,0 +1,26 @@
+.continer_confirmation{
+    padding: 6rem 1rem 1rem;
+    display: flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 8rem 17rem 3rem;
+
+}
+.item_confirmation{
+    object-fit: cover;
+    object-position: 50% 50%;
+
+}
+.con_tow_info{
+    background-color: #B5EAEA;
+    padding: 10%;
+
+
+}
+.des_photo_con{
+    display: flex;
+    padding: 5% 2% 3% 0%;
+
+}

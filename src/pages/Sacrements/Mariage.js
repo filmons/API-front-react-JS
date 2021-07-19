@@ -1,4 +1,9 @@
 import React, { Component } from 'react'
+import '../../assets/Sacrement/Mariage.css';
+import photo from '../../source/equipes/eglise.png';
+
+
+
 
 class Mariage extends React.Component {
     render() {
@@ -28,6 +33,19 @@ class Mariage extends React.Component {
                    <p>Si vous souhaitez vous marier à l’église Saint Jean De Montmartre , vous préparerez la célébration avec le prêtre qui vous accompagne et qui célébrera votre mariage.</p>
                    <p>Si vous souhaitez vous marier en province ou à l’étranger, merci de contacter directement la paroisse dans laquelle se déroulera votre mariage</p>
                </div>
+               <div className="Mar_tow_info">
+                        <h5>Pour plus d'informations</h5>
+                        <section className="des_photo_Mar">
+                        <img className="ferst" src={photo} alt="photo des éqipe"/>
+                            <div>
+                            <h6>Elodie Soulié</h6>
+                            <p>Responsable Baptême et Mariage</p>
+                            <a>baptemes.mariages@saintjeandemontmartre.com</a>
+                            </div>
+
+                        </section>
+            
+                        </div>
             </div>
         )
     }

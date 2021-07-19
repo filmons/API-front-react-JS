@@ -1,4 +1,4 @@
-.continer_obseques{
+.continer_oncation{
     padding: 6rem 1rem 1rem;
     display: flex;
     display: -ms-flexbox;
@@ -8,19 +8,18 @@
     padding: 8rem 17rem 3rem;
 
 }
-.item_obseques{
+.item_oncation{
     object-fit: cover;
     object-position: 50% 50%;
 
-
 }
-.obse_tow_info{
+.onca_tow_info{
     background-color: #B5EAEA;
     padding: 10%;
 
 
 }
-.obse_photo_conf{
+.onca_photo_conf{
     display: flex;
     padding: 5% 2% 3% 0%;
 

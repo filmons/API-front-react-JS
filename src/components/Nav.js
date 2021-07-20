@@ -14,7 +14,7 @@ function Nav() {
 	return (
 		<nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"} `}>
 			<div className="navbar_logo"><Link to="/" className="navbar_link" >
-			Paroisse Catholique Emanuel de Montreuil
+			<h1>Paroisse Catholique Emanuel de Montreuil</h1>
 					</Link> </div>
 			<ul className="navbar_links">
 				

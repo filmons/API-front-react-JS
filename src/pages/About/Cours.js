@@ -1,7 +1,6 @@
-import React from 'react'
-import axios from 'axios'
-import '../../assets/About/cours.css'
-
+import React from 'react';
+import axios from 'axios';
+import '../../assets/About/cours.css';
 class Cours extends React.Component {
     constructor(props) {
         super(props);
@@ -13,7 +12,7 @@ class Cours extends React.Component {
       getData = async () => {
         const response = await axios.get('http://localhost:8000/V1/cours');
         this.setState({
-          data: response.data.corss,
+          data: response.data.cours,
         });
         console.log(this.state.data);
       };
@@ -31,16 +30,12 @@ class Cours extends React.Component {
                         <p>{cours.description_one}</p>
                         <p>{cours.description_two}</p>
                         <p>{cours.description_three}</p>
-                      {/* <img src={image} alt={cours.name} /> */}
-                   
-                  </div>
+                 </div>
                 );
               })}
             </div>
           </div>
-       
         );
       }
 }
-
 export default Cours

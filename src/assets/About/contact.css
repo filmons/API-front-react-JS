@@ -1,6 +1,7 @@
 .continer_contact{
-    display: flex;
-    padding: 7rem 0rem 4rem;
+    display: flex; 
+    justify-content: center;  
+    padding: 12rem 17rem 3rem;
 }
 .item_caontact{
 
@@ -25,4 +26,35 @@
     cursor: pointer;
     width: 22%;
     opacity: 0.9;
+}
+@media screen and (max-width:767px) {
+    
+    .continer_contact{
+        justify-content: center;  
+        padding:13rem 3rem 3rem;;
+    }
+    .item_caontact{
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        margin: auto;
+    
+    }
+    .contact_input{
+        width: 34rem;
+        height: 10rem;
+    }
+    .sub_but{
+        background-color: #04AA6D;
+        color: white;
+        padding: 14px 20px;
+        margin: 2px 21px;
+        border: none;
+        cursor: pointer;
+        width: 22%;
+        opacity: 0.9;
+    }
 }

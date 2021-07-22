@@ -1,6 +1,5 @@
 
 .continer_bateme{
-    padding: 6rem 1rem 1rem;
     display: flex;
     display: -ms-flexbox;
     display: flex;
@@ -16,9 +15,7 @@
     object-position: 50% 50%;
 
 }
-.contact{
-    display: flex;
-}
+
 .des_photo{
     display: flex;
     padding: 5% 2% 3% 0%;
@@ -36,6 +33,47 @@
  h5{
     font-size: 2rem;
     
+}
+@media screen and (max-width:767px) {
+    .continer_bateme{
+      
+        display: flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding: 16rem 2rem 3rem;
+       
+    }
+    .item_bateme{
+        width: 357px;
+        height: 533px;
+        object-fit: cover;
+        object-position: 50% 50%;
+    
+    }
+    .contact{
+        display: flex;
+    }
+    .des_photo{
+        display: flex;
+        padding: 5% 2% 3% 0%;
+    }
+    .ferst{
+        width: 14%;
+        height: 14%;
+        border-radius: 11rem;
+        border: solid 1px rgb(0, 255, 221);
+    }
+    .tow_info{
+        background-color: #B5EAEA;
+        padding: 10%;
+    }
+     h5{
+        font-size: 2rem;
+        
+    }
+
 }
 /*
 .deuxchose{

@@ -1,11 +1,11 @@
 .conuner_scoutisme{
    
     display: flex;
-    padding: 7rem 14rem 4rem;
     justify-content: center;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+    padding: 15rem 14rem 4rem;
 }
 .item_scoutisme{
     display: flex;
@@ -14,4 +14,24 @@
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+}
+@media screen and (max-width:767px) {
+    .conuner_scoutisme{
+   
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding: 14rem 4rem 4rem;
+    }
+    .item_scoutisme{
+        display: flex;
+        justify-content: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
 }

@@ -1,11 +1,30 @@
 .continer_cristaniseme{
     
     display: flex;
-    padding: 7rem 14rem 4rem;
+    padding: 12rem 14rem 4rem;
 }
 .item_cristanism{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+}
+@media screen and (max-width:767px) {
+    .continer_cristaniseme{
+    
+        display: flex;
+        padding: 12rem 0rem 4rem;
+    }
+    .item_cristanism{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        align-items: center; 
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-top: 6%;
+    }
+
 }

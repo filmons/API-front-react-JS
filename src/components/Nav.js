@@ -2,7 +2,7 @@
 import React from "react";
 import "../assets/component/nav.css";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link , NavLink} from "react-router-dom";
 
 function Nav() {
 	const [showLinks, setShowLinks] = useState(false);
@@ -13,18 +13,18 @@ function Nav() {
 	console.log(showLinks);
 	return (
 		<nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"} `}>
-			<div className="navbar_logo"><Link to="/" className="navbar_link" >
+			<div className="navbar_logo"><NavLink to="/" className="navbar_link" >
 			<h1>Paroisse Catholique Emanuel de Montreuil</h1>
-					</Link> </div>
+					</NavLink> </div>
 			<ul className="navbar_links">
 				
 
 				<div className="dropdown">
 					<button className="dropbtn">
 						<li className="navbar_item" >
-							<Link to="#" className="navbar_link">
+							<NavLink to="#" className="navbar_link">
 								Abut As
-							</Link>
+							</NavLink>
 						</li>
 						<i className="fa fa-caret-down"></i>
 					</button>
@@ -39,9 +39,9 @@ function Nav() {
 				<div className="dropdown">
 					<button className="dropbtn">
 						<li className="navbar_item">
-							<Link to="#" className="navbar_link">
+							<NavLink to="#" className="navbar_link">
 								Enfance et jeunesse
-							</Link>
+							</NavLink>
 						</li>
 						<i className="fa fa-caret-down"></i>
 					</button>
@@ -57,9 +57,9 @@ function Nav() {
 					<div className="dropdown">
 						<button className="dropbtn">
 							<li className="navbar_item" >
-								<Link to="#" className="navbar_link">
+								<NavLink to="#" className="navbar_link">
 									Sacrements et célébrations
-								</Link>
+								</NavLink>
 							</li>
 							<i className="fa fa-caret-down"></i>
 						</button>
@@ -75,15 +75,15 @@ function Nav() {
 						</div>
 					</div>
 					<li className="navbar_item" >
-					<Link to="/Signup" className="navbar_link">
+					<NavLink to="/Signup" className="navbar_link">
 						Signup
-					</Link>
+					</NavLink>
                     </li>
 				
 				<li className="navbar_item" >
-					<Link to="/Login" className="navbar_link">
+					<NavLink to="/Login" className="navbar_link">
 						Login
-					</Link>
+					</NavLink>
 				</li>
 			</ul>
 			<button className="navbar_burger" onClick={handelShowLinks}>

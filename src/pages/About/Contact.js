@@ -9,7 +9,8 @@ class contact extends React.Component{
             <section>
                 <div className="continer_contact">
                     <div className="item_caontact" >
-                      <p> remplissiez cet formulere pour s'il vous plait</p>
+                      <h2> remplissiez cet formulere pour s'il vous plait</h2>
+                      <br/>
                     <label htmlFor="email">
 						<b>last Name</b>
 					</label>

@@ -5,6 +5,7 @@ import photo from "../../source/equipes/eglise.png"
  class Cristianisme   extends React.Component {
     render() {
         return (
+            
          <div className="continer_cristaniseme">
              <div className="item_cristanism">
                     <h1>L'Esprit Saint, virgule de l'âme</h1>

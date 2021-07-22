@@ -14,7 +14,7 @@ class Mariage extends React.Component {
                    <p>Vous avez décidé de vous marier.</p>
                    <p> Votre paroisse est heureuse de vous accueillir et vous accompagner dans ce chemin.</p>
                    <p>Le mariage est un engagement pris devant Dieu. La dignité de cet engagement s’articule sur les quatre piliers que scelle l’échange des consentements : la liberté, la fidélité, l’indissolubilité et la fécondité.</p>
-               </div>
+               
                <div>
                    <h2>La préparation au mariage à Saint-Jean de Montmartre</h2>
                    <p>Le sacrement du mariage engage la vie entière, sa préparation demande donc du temps</p>
@@ -45,6 +45,7 @@ class Mariage extends React.Component {
 
                         </section>
             
+                        </div>
                         </div>
             </div>
         )

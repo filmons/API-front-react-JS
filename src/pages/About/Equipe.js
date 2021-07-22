@@ -13,36 +13,44 @@ class Equipe extends React.Component {
         <div className="all_img">
             
             <div className="fir-para">
-            <h1>L'Esprit Saint, virgule de l'âme</h1>
+            <h1>Père Selvan Charles</h1>
+            <h2>Vicaire</h2>
             <img src={photo} alt="photo des éqipe" />
            </div>
            <div className="fir-para">
-            <h1>L'Esprit Saint, virgule de l'âme</h1>
+           <h1>Père Selvan Charles</h1>
+            <h3>Vicaire</h3>
             <img src={photo} />
            </div>
            <div className="fir-para">
-            <h1>L'Esprit Saint, virgule de l'âme</h1>
+           <h1>Père Selvan Charles</h1>
+           <h3>Vicaire</h3>
             <img src={photo}alt="photo des éqipe" />
            </div>
            <div className="fir-para">
-            <h1>L'Esprit Saint, virgule de l'âme</h1>
+           <h1>Père Selvan Charles</h1>
+           <h3>Vicaire</h3>
             <img src={photo}alt="photo des éqipe" />
            </div>
            <div className="fir-para">
-            <h1>L'Esprit Saint, virgule de l'âme</h1>
+           <h1>Père Selvan Charles</h1>
+           <h3>Vicaire</h3>
             <img src={photo} alt="photo des éqipe"/>
            </div>
            <div className="fir-para">
-            <h1>L'Esprit Saint, virgule de l'âme</h1>
+           <h1>Père Selvan Charles</h1>
+           <h3>Vicaire</h3>
             <img src={photo} alt="photo des éqipe"/>
            </div>
            <div className="fir-para">
-            <h1>L'Esprit Saint, virgule de l'âme</h1>
+           <h1>Père Selvan Charles</h1>
+           <h3>Vicaire</h3>
             <img src={photo} alt="photo des éqipe"/>
            </div>
 
             <div className="th-para">
-            <h1>L'Esprit Saint, virgule de l'âme</h1>
+            <h1>Père Selvan Charles</h1>
+            <h3>Vicaire</h3>
             <img src={photo} alt="photo des éqipe"/>
             </div>
             

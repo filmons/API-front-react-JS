@@ -39,14 +39,14 @@ function App() {
             <Route exact path='/Eveil' component={Eveil}/>
             <Route exact path='/Scoutisme' component={Scoutisme}/>
             <Route exact path='/Cristianisme' component={Cristianisme}/>
-            <Route exact path='/Bateme' component={Bateme} />
-            <Route exact path='/Comunition' component={Comunition} />
+            <Route exact path='/Bateme' component={Bateme}/>
+            <Route exact path='/Comunition' component={Comunition}/>
             <Route exact path='/Confirmation' component={Confirmation}/>
-            <Route exact path='/Mariage' component={Mariage} />
-            <Route exact path='/Obseques' component={Obseques} />
-            <Route exact path='/Oncation' component={Oncation} />
-            <Route exact path='/Ordination' component={Ordination} />
-            <Route exact path='/Reconsltation' component={Reconsltation} />
+            <Route exact path='/Mariage' component={Mariage}/>
+            <Route exact path='/Obseques' component={Obseques}/>
+            <Route exact path='/Oncation' component={Oncation}/>
+            <Route exact path='/Ordination' component={Ordination}/>
+            <Route exact path='/Reconsltation' component={Reconsltation}/>
             <Route exact path='/Signup' component={Signup}/>
             <Route exact path='/Login' component={Login}/>
             </Switch>

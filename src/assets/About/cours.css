@@ -1,7 +1,8 @@
 .container_calss{
     display: flex; 
     justify-content: center;  
-    padding: 7rem 0rem 4rem;
+    padding: 12rem 17rem 3rem;
+
 }
 .class-card{
 
@@ -16,4 +17,18 @@
     align-items: center; 
     margin-left: 5rem;
     margin-right: 5rem;
+}
+@media screen and (max-width:767px) {
+    .container_calss{
+        display: flex; 
+        justify-content: center;  
+        padding: 15rem 0rem 4rem;
+    }
+    .class-card{
+    
+    }
+    .item{
+    
+    
+    }
 }

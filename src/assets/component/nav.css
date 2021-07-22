@@ -83,6 +83,9 @@ div .navbar_logo{
     /* .navbar{
         color: white;
     } */
+    h1{
+        color: black;
+    }
     .navbar_links{
         flex-direction: column;
         justify-content: center;
@@ -146,7 +149,7 @@ div .navbar_logo{
         height: 3px;
         position: relative;
         border-radius: 3px;
-        background: #FFF;
+        background:black;
         transition: all .5s ease-in-out;
         
     }

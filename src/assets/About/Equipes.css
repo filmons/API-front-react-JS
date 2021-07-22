@@ -10,3 +10,17 @@
     .titre{
     display: flex;
     }
+    img{
+        border-radius: 16%;
+    }
+    @media screen and (max-width:767px) {
+        .all_img{
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-around;
+            justify-content: center;
+            padding: 15rem 2rem 7rem;
+        
+            }
+        
+        }

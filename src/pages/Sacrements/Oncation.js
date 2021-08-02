@@ -1,38 +1,90 @@
-import React, { Component } from 'react'
-import '../../assets/Sacrement/Oncation.css'
-import photo from '../../source/equipes/eglise.png';
-
+import React, { Component } from "react";
+import "../../assets/Sacrement/Oncation.css";
+import photo from "../../source/equipes/eglise.png";
 
 class Oncation extends React.Component {
-    render() {
-        return (
-            <div className="continer_oncation">
-               <div className="item_oncation">
-               <span>Ordination</span>
-                
-               
-                <p>L’ordination sacerdotale est la célébration liturgique où le prêtre reçoit de l’évêque le 2ème degré du sacrement que l’on appelle “sacrement de l’ordre” au degré de prêtre. Par l’ordination, le nouveau prêtre reçoit le caractère sacerdotal qui est une marque ineffaçable comme le caractère baptismal. Il entre aussi dans le “presbyterium”
-                 qui est la communauté des prêtres d’un diocèse unis autour de leur évêque.</p>
-                 <br/>
-                 <p>Découvrez la vie de séminariste et une certaine vision de la vocation à travers l'interview 
-                    d'Augustin Reille enregistrée quelques mois avant son ordination. </p>
-                <div className="onca_tow_info">
-                        <h5>Pour plus d'informations</h5>
-                        <section className="onca_photo_conf">
-                        <img className="ferst" src={photo} alt="photo des éqipe"/>
-                            <div>
-                            <h6>Elodie Soulié</h6>
-                            <p>Responsable Baptême et Mariage</p>
-                            <a>baptemes.mariages@saintjeandemontmartre.com</a>
-                            </div>
+	render() {
+		return (
+			<div className="continer_oncation">
+				<div className="item_oncation">
+					<span>Onction des Malades</span>
 
-                        </section>
-            
-                        </div>
-            </div>
-         </div>
-        )
-    }
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+						finibus egestas commodo. Aliquam commodo justo sed ante tincidunt,
+						vitae fermentum risus efficitur. Vivamus pellentesque neque et urna
+						varius, quis iaculis ex placerat. Morbi elit arcu, lobortis at elit
+						at, lacinia condimentum risus. Suspendisse a mi turpis. Donec
+						sagittis mollis massa at mollis. Pellentesque tincidunt, tortor vel
+						faucibus ullamcorper, lacus magna mattis libero, eu malesuada lacus
+						urna nec sem. Sed id cursus diam. Nam dui metus, cursus et orci
+						eget, efficitur dictum diam. Morbi efficitur nisi at augue ultrices
+						facilisis. Donec in augue ut lectus fermentum porttitor interdum at
+						leo. Morbi porttitor, libero eu luctus euismod, nibh dolor viverra
+						elit, et molestie leo lectus consectetur augue. Etiam porttitor
+						faucibus tincidunt. Proin id ex metus. Sed iaculis tincidunt
+						sollicitudin. Duis eget mollis nisl. Curabitur mollis bibendum
+						sapien, eget dignissim quam mollis eu. Fusce viverra maximus
+						porttitor. Donec consequat non neque quis tincidunt. Pellentesque ut
+						nunc mauris. Phasellus sit amet diam ipsum. Cras consectetur egestas
+						velit at volutpat. Vestibulum viverra finibus justo, id rutrum
+						lectus porta sit amet. Proin id dictum metus. Suspendisse potenti.
+						Aenean eget augue ullamcorper, consectetur nunc in, facilisis nisl.
+						Vivamus nec dolor sed ligula posuere egestas. Maecenas tellus
+						tellus, bibendum id gravida eu, ornare non purus. Nam at tempor est,
+						in tincidunt tellus. In ullamcorper erat sed posuere auctor. Donec
+						diam nibh, semper id est volutpat, lobortis viverra dolor. Mauris
+						malesuada faucibus felis sit amet vehicula. Suspendisse iaculis et
+						libero vel lacinia. Quisque semper condimentum tempor. Morbi nec
+						euismod neque. Mauris ut enim quis turpis blandit hendrerit ut a
+						nunc. Aliquam consectetur nec velit vel ultricies.
+					</p>
+					<br />
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+						finibus egestas commodo. Aliquam commodo justo sed ante tincidunt,
+						vitae fermentum risus efficitur. Vivamus pellentesque neque et urna
+						varius, quis iaculis ex placerat. Morbi elit arcu, lobortis at elit
+						at, lacinia condimentum risus. Suspendisse a mi turpis. Donec
+						sagittis mollis massa at mollis. Pellentesque tincidunt, tortor vel
+						faucibus ullamcorper, lacus magna mattis libero, eu malesuada lacus
+						urna nec sem. Sed id cursus diam. Nam dui metus, cursus et orci
+						eget, efficitur dictum diam. Morbi efficitur nisi at augue ultrices
+						facilisis. Donec in augue ut lectus fermentum porttitor interdum at
+						leo. Morbi porttitor, libero eu luctus euismod, nibh dolor viverra
+						elit, et molestie leo lectus consectetur augue. Etiam porttitor
+						faucibus tincidunt. Proin id ex metus. Sed iaculis tincidunt
+						sollicitudin. Duis eget mollis nisl. Curabitur mollis bibendum
+						sapien, eget dignissim quam mollis eu. Fusce viverra maximus
+						porttitor. Donec consequat non neque quis tincidunt. Pellentesque ut
+						nunc mauris. Phasellus sit amet diam ipsum. Cras consectetur egestas
+						velit at volutpat. Vestibulum viverra finibus justo, id rutrum
+						lectus porta sit amet. Proin id dictum metus. Suspendisse potenti.
+						Aenean eget augue ullamcorper, consectetur nunc in, facilisis nisl.
+						Vivamus nec dolor sed ligula posuere egestas. Maecenas tellus
+						tellus, bibendum id gravida eu, ornare non purus. Nam at tempor est,
+						in tincidunt tellus. In ullamcorper erat sed posuere auctor. Donec
+						diam nibh, semper id est volutpat, lobortis viverra dolor. Mauris
+						malesuada faucibus felis sit amet vehicula. Suspendisse iaculis et
+						libero vel lacinia. Quisque semper condimentum tempor. Morbi nec
+						euismod neque. Mauris ut enim quis turpis blandit hendrerit ut a
+						nunc. Aliquam consectetur nec velit vel ultricies.
+					</p>
+					<div className="onca_tow_info">
+						<h5>Pour plus d'informations</h5>
+						<section className="onca_photo_conf">
+							<img className="ferst" src={photo} alt="photo des éqipe" />
+							<div>
+								<h4>Elodie Soulié</h4>
+								<p>Responsable Baptême et Mariage</p>
+								<a>baptemes.mariages@.com</a>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		);
+	}
 }
 
-export default Oncation
+export default Oncation;

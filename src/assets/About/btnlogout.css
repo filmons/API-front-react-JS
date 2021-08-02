@@ -1,0 +1,11 @@
+div button{
+            background-color: #04AA6D;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 9%;
+            opacity: 0.9;
+            display: flex;
+}

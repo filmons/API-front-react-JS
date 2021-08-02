@@ -14,10 +14,10 @@ class signup extends React.Component {
 			city: "",
 			password: "",
 			errorFirtName: false,
-      errorLastName: false,
+			errorLastName: false,
 			errorEmail: false,
-      errorPassword: false,
-      errorCity: false,
+			errorPassword: false,
+			errorCity: false,
 		};
 	}
 	handleChange = (event) => {
@@ -29,35 +29,35 @@ class signup extends React.Component {
 		if (this.state.first_name === "") {
 			this.setState({ errorFirtName: true });
 		} else {
-      this.setState({ errorFirtName: false });
-    }
+			this.setState({ errorFirtName: false });
+		}
 		if (this.state.email === "") {
 			this.setState({ errorEmail: true });
 		} else {
-      this.setState({ errorEmail: false });
-    }
-    
-    if (this.state.last_name === "") {
+			this.setState({ errorEmail: false });
+		}
+
+		if (this.state.last_name === "") {
 			this.setState({ errorLastName: true });
 		} else {
-      this.setState({ errorLastName: false });
-    }
-    if (this.state.password === "") {
+			this.setState({ errorLastName: false });
+		}
+		if (this.state.password === "") {
 			this.setState({ errorPassword: true });
 		} else {
-      this.setState({ errorPassword: false });
-    }
-    if (this.state.last_name === "") {
+			this.setState({ errorPassword: false });
+		}
+		if (this.state.last_name === "") {
 			this.setState({ errorLastName: true });
 		} else {
-      this.setState({ errorLastName: false });
-    }
-    if (this.state.city === "") {
+			this.setState({ errorLastName: false });
+		}
+		if (this.state.city === "") {
 			this.setState({ errorCity: true });
 		} else {
-      this.setState({ errorCity: false });
-    }
-    
+			this.setState({ errorCity: false });
+		}
+
 		const options = {
 			first_name: this.state.first_name,
 			last_name: this.state.last_name,
@@ -83,9 +83,9 @@ class signup extends React.Component {
 		return (
 			<div className="container">
 				<div className="form">
-				<h1>Sign Up</h1>
-				<p>Please fill in this form to create an account.</p>
-				<hr />
+					<h1>Sign Up</h1>
+					<p>Please fill in this form to create an account.</p>
+					<hr />
 				</div>
 				<div className="lebls">
 					<label htmlFor="first_name">
@@ -123,11 +123,11 @@ class signup extends React.Component {
 						<b>last Name</b>
 					</label>
 					<input
-          style={
-            this.state.errorLastName
-              ? { border: "1px solid red" }
-              : { border: "" }
-          }
+						style={
+							this.state.errorLastName
+								? { border: "1px solid red" }
+								: { border: "" }
+						}
 						type="text"
 						placeholder="Enter last Name"
 						name="last_name"
@@ -155,11 +155,11 @@ class signup extends React.Component {
 						<b>Password</b>
 					</label>
 					<input
-          style={
-            this.state.errorPassword
-              ? { border: "1px solid red" }
-              : { border: "" }
-          }
+						style={
+							this.state.errorPassword
+								? { border: "1px solid red" }
+								: { border: "" }
+						}
 						type="password"
 						placeholder="Enter Password"
 						name="password"
@@ -171,11 +171,11 @@ class signup extends React.Component {
 						<b>city</b>
 					</label>
 					<input
-          style={
-            this.state.errorCity
-              ? { border: "1px solid red" }
-              : { border: "" }
-          }
+						style={
+							this.state.errorCity
+								? { border: "1px solid red" }
+								: { border: "" }
+						}
 						type="text"
 						placeholder="Enter City"
 						name="city"
@@ -193,10 +193,10 @@ class signup extends React.Component {
 
 					<div className="clearfix">
 						<p>
-						<Link to="/">
-							<button type="button" className="cancelbtn" >
-								Cancel
-							</button>
+							<Link to="/">
+								<button type="button" className="cancelbtn">
+									Cancel
+								</button>
 							</Link>
 							<button
 								onClick={this.handleClick}

@@ -10,13 +10,14 @@ class Bateme extends React.Component {
                <div className="item_batem">
                    <span>Bateme </span>
                    <h2>Baptême des tout-petits (0 à 3 ans)</h2>
-                   <p> Deux réunions préparent les baptêmes 
-                   Demander le baptême pour son enfant, engage les parents à éveiller la foi dans son
-                        cœur en lui donnant une éducation chrétienne et en l’inscrivant par exemple à l’éveil 
-                        à la foi puis au catéchisme lorsqu’il en aura l’âge pour qu’il puisse découvrir et vivre 
-                        de la foi chrétienne. Plus tard, lorsque l’enfant sera adolescent, il s’appropriera son baptême
-                         en prononçant sa Profession de Foi.
-                        Il dira lui-même le « je crois » du croyant.</p>
+                   <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse magna sapien, pulvinar id justo a, viverra consectetur nisi. Aliquam non magna rutrum, tempus neque sed, accumsan lacus. Vivamus at bibendum nulla, eget pulvinar massa. Donec ornare vulputate leo, ac vehicula sapien aliquet ut. Vivamus ut sagittis orci, vel posuere lectus. Quisque pulvinar cursus justo non condimentum. Vestibulum non erat vitae erat lacinia accumsan sed aliquet dolor.
+
+In finibus ligula eget massa tempor tincidunt. Nulla semper velit ipsum, quis efficitur massa ultrices vitae. Nullam risus sapien, consequat sed tincidunt hendrerit, suscipit faucibus est. Quisque eu venenatis purus, eget efficitur nunc. Quisque vel quam quam. Proin vulputate erat sit amet massa semper finibus. Aliquam blandit nunc a ligula egestas commodo in vel purus. Etiam ac turpis diam. Nam in nisi congue, aliquam eros tincidunt, elementum felis. Etiam volutpat vehicula consectetur.
+
+Nam nec turpis at ex maximus interdum. Sed quis diam et eros varius sodales sed ac tortor. Cras ac consequat erat. Cras et sapien eu ipsum pulvinar lobortis. Ut a mauris ex. Proin mollis metus nec urna hendrerit, eget imperdiet nisi maximus. Suspendisse laoreet tristique lectus, posuere sagittis tortor. Mauris rutrum nec nulla ut hendrerit. Nulla scelerisque, diam ac ornare mollis, tortor nisi sagittis diam, quis ornare eros augue ut nulla. Sed porta, dolor tempus tempus mattis, nulla metus tempor est, eget semper enim ipsum at dolor. Aenean dictum metus lacus, fermentum consequat urna porta eget. Nullam eu ligula vitae erat tincidunt mattis. Ut dictum enim felis, in pretium sapien cursus vitae. Pellentesque finibus ullamcorper nisi eget blandit. Vivamus gravida, odio non aliquam bibendum, erat arcu facilisis libero, id posuere velit ante et odio. Quisque aliquet mauris enim, sed egestas nulla vestibulum consectetur.
+
+
+</p>
                         <h3>La préparation du baptême à Saint-Jean de Montmartre</h3>
                         <ul>
                             <li>La première rencontre préalable aux sacrements se déroule tout un dimanche en présence d’autres couples se préparant au baptême de leur enfant et des couples préparant leur mariage. Ces rencontres permettent de se situer par rapport au Christ, à l’Eglise et à la foi des chrétiens. Cette réunion est animée par un couple animateur et un prêtre.</li>
@@ -32,8 +33,13 @@ class Bateme extends React.Component {
                             <li>La demande de baptême ne peut être faite que par le père ou la mère en personne, avec l’accord de l’autre parent en vous déplaçant à l’accueil dans l’église le lundi et le samedi 10h à 12h et du mardi au vendredi de 17h à 18h30.</li>
                             <li>Le parrain et la marraine doivent avoir au moins 16 ans et doivent être baptisés, confirmés et communiés dans l’Eglise Catholique. Il est possible de ne désigner qu’un parrain ou une marraine</li>
                         </ul>
-                        <p>Comptez un délai d’au moins 4 mois environ entre l’inscription et la date du baptême. Si le baptême est célébré à Saint Jean de Montmartre, merci de fournir un acte de naissance de votre enfant ainsi qu’une  copie d’acte de baptême du parrain et de la marraine que vous pouvez envoyer par mail à baptemes.mariages@saintjeandemontmartre.com.</p>
-                        <p>Combien coûte le baptême ?
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse magna sapien, pulvinar id justo a, viverra consectetur nisi. Aliquam non magna rutrum, tempus neque sed, accumsan lacus. Vivamus at bibendum nulla, eget pulvinar massa. Donec ornare vulputate leo, ac vehicula sapien aliquet ut. Vivamus ut sagittis orci, vel posuere lectus. Quisque pulvinar cursus justo non condimentum. Vestibulum non erat vitae erat lacinia accumsan sed aliquet dolor.
+
+In finibus ligula eget massa tempor tincidunt. Nulla semper velit ipsum, quis efficitur massa ultrices vitae. Nullam risus sapien, consequat sed tincidunt hendrerit, suscipit faucibus est. Quisque eu venenatis purus, eget efficitur nunc. Quisque vel quam quam. Proin vulputate erat sit amet massa semper finibus. Aliquam blandit nunc a ligula egestas commodo in vel purus. Etiam ac turpis diam. Nam in nisi congue, aliquam eros tincidunt, elementum felis. Etiam volutpat vehicula consectetur.
+
+Nam nec turpis at ex maximus interdum. Sed quis diam et eros varius sodales sed ac tortor. Cras ac consequat erat. Cras et sapien eu ipsum pulvinar lobortis. Ut a mauris ex. Proin mollis metus nec urna hendrerit, eget imperdiet nisi maximus. Suspendisse laoreet tristique lectus, posuere sagittis tortor. Mauris rutrum nec nulla ut hendrerit. Nulla scelerisque, diam ac ornare mollis, tortor nisi sagittis diam, quis ornare eros augue ut nulla. Sed porta, dolor tempus tempus mattis, nulla metus tempor est, eget semper enim ipsum at dolor. Aenean dictum metus lacus, fermentum consequat urna porta eget. Nullam eu ligula vitae erat tincidunt mattis. Ut dictum enim felis, in pretium sapien cursus vitae. Pellentesque finibus ullamcorper nisi eget blandit. Vivamus gravida, odio non aliquam bibendum, erat arcu facilisis libero, id posuere velit ante et odio. Quisque aliquet mauris enim, sed egestas nulla vestibulum consectetur.
+
+
 
                         Les sacrements sont toujours gratuits.
                         Pourtant, sachez qu’en France l’Eglise ne vit qu’avec les dons des chrétiens. Vous pouvez donc faire un don à la paroisse.  (bon à savoir ; votre don est déductible des impôts, n'hésitez pas à demander un reçu fiscal !)</p>

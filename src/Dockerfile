@@ -1,6 +1,6 @@
 FROM node:latest
 WORKDIR /app
-RUN  yarn
 COPY . .
+RUN yarn add
 EXPOSE 3000
-CMD ["node", "app.js"]
+CMD ["node", "index.js"]

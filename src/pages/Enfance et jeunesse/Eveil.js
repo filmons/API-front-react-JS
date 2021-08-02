@@ -1,35 +1,49 @@
-import React from 'react'
-import '../../assets/Enfance /Eveil.css'
+import React from "react";
+import "../../assets/Enfance /Eveil.css";
 
-import photo from "../../source/equipes/eglise.png"
+import photo from "../../source/equipes/eglise.png";
 
 class Eveil extends React.Component {
-  render() {
-    return (
-     <div className="continer_cristaniseme">
-         <div className="item_cristanism">
-                <h1>L'éveil à la foi</h1>
-                <p>L’éveil à la foi s’adresse aux enfants de 4 à 7 ans (maternelle au CE1) accompagnés de leurs parents, certains dimanches à 10h15 et pendant la célébration de la messe.</p>
-                <img src={photo} alt="photo des éqipe" />
+	render() {
+		return (
+			<div className="continer_cristaniseme">
+				<div className="item_cristanism">
+					<h1>L'éveil à la foi</h1>
+					<p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse magna sapien, pulvinar id justo a, viverra consectetur nisi. Aliquam non magna rutrum, tempus neque sed, accumsan lacus. Vivamus at bibendum nulla, eget pulvinar massa. Donec ornare vulputate leo, ac vehicula sapien aliquet ut. Vivamus ut sagittis orci, vel posuere lectus. Quisque pulvinar cursus justo non condimentum. Vestibulum non erat vitae erat lacinia accumsan sed aliquet dolor.
 
-<h2>L'éveil à la foi en pratique</h2>
-            <p>
-            Le rendez-vous est donné à l’entrée de l’Eglise puis les enfants se retrouvent pour partager autour de l’évangile du jour un temps de chants, de paroles, 
-            de prières et d’activités de loisirs créatifs. Un moment privilégié pour découvrir Dieu accompagné de leurs parents. A chaque fin de séance, les enfants rejoignent l’assemblée 
-            au moment de la communion pour présenter leurs réalisations, chanter, et participer à la bénédiction finale. A Saint-Jean de Montmartre, nous avons la chance d’avoir de nombreux parents 
-            qui ont des talents de musiciens ce qui rend les séances encore plus jolies !
-        </p>
-        <h3>Bon à savoir </h3>
-        <p>
-        Retrouvez le planning des séances d'éveil à la foi pour l'année scolaire 2021/22. 
-        Accompagnés du Père Selvan, ce sont les parents qui doivent animer la séance.
-         Un roulement est établi entre les parents.
-        </p>
-</div>
-</div>
+In finibus ligula eget massa tempor tincidunt. Nulla semper velit ipsum, quis efficitur massa ultrices vitae. Nullam risus sapien, consequat sed tincidunt hendrerit, suscipit faucibus est. Quisque eu venenatis purus, eget efficitur nunc. Quisque vel quam quam. Proin vulputate erat sit amet massa semper finibus. Aliquam blandit nunc a ligula egestas commodo in vel purus. Etiam ac turpis diam. Nam in nisi congue, aliquam eros tincidunt, elementum felis. Etiam volutpat vehicula consectetur.
 
-        )
-    }
+Nam nec turpis at ex maximus interdum. Sed quis diam et eros varius sodales sed ac tortor. Cras ac consequat erat. Cras et sapien eu ipsum pulvinar lobortis. Ut a mauris ex. Proin mollis metus nec urna hendrerit, eget imperdiet nisi maximus. Suspendisse laoreet tristique lectus, posuere sagittis tortor. Mauris rutrum nec nulla ut hendrerit. Nulla scelerisque, diam ac ornare mollis, tortor nisi sagittis diam, quis ornare eros augue ut nulla. Sed porta, dolor tempus tempus mattis, nulla metus tempor est, eget semper enim ipsum at dolor. Aenean dictum metus lacus, fermentum consequat urna porta eget. Nullam eu ligula vitae erat tincidunt mattis. Ut dictum enim felis, in pretium sapien cursus vitae. Pellentesque finibus ullamcorper nisi eget blandit. Vivamus gravida, odio non aliquam bibendum, erat arcu facilisis libero, id posuere velit ante et odio. Quisque aliquet mauris enim, sed egestas nulla vestibulum consectetur.
+
+
+					</p>
+					<img src={photo} alt="photo des éqipe" />
+
+					{/* <h2>L'éveil à la foi en pratique</h2> */}
+					<p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse magna sapien, pulvinar id justo a, viverra consectetur nisi. Aliquam non magna rutrum, tempus neque sed, accumsan lacus. Vivamus at bibendum nulla, eget pulvinar massa. Donec ornare vulputate leo, ac vehicula sapien aliquet ut. Vivamus ut sagittis orci, vel posuere lectus. Quisque pulvinar cursus justo non condimentum. Vestibulum non erat vitae erat lacinia accumsan sed aliquet dolor.
+
+In finibus ligula eget massa tempor tincidunt. Nulla semper velit ipsum, quis efficitur massa ultrices vitae. Nullam risus sapien, consequat sed tincidunt hendrerit, suscipit faucibus est. Quisque eu venenatis purus, eget efficitur nunc. Quisque vel quam quam. Proin vulputate erat sit amet massa semper finibus. Aliquam blandit nunc a ligula egestas commodo in vel purus. Etiam ac turpis diam. Nam in nisi congue, aliquam eros tincidunt, elementum felis. Etiam volutpat vehicula consectetur.
+
+Nam nec turpis at ex maximus interdum. Sed quis diam et eros varius sodales sed ac tortor. Cras ac consequat erat. Cras et sapien eu ipsum pulvinar lobortis. Ut a mauris ex. Proin mollis metus nec urna hendrerit, eget imperdiet nisi maximus. Suspendisse laoreet tristique lectus, posuere sagittis tortor. Mauris rutrum nec nulla ut hendrerit. Nulla scelerisque, diam ac ornare mollis, tortor nisi sagittis diam, quis ornare eros augue ut nulla. Sed porta, dolor tempus tempus mattis, nulla metus tempor est, eget semper enim ipsum at dolor. Aenean dictum metus lacus, fermentum consequat urna porta eget. Nullam eu ligula vitae erat tincidunt mattis. Ut dictum enim felis, in pretium sapien cursus vitae. Pellentesque finibus ullamcorper nisi eget blandit. Vivamus gravida, odio non aliquam bibendum, erat arcu facilisis libero, id posuere velit ante et odio. Quisque aliquet mauris enim, sed egestas nulla vestibulum consectetur.
+
+
+					</p>
+					{/* <h3>Bon à savoir </h3> */}
+					<p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse magna sapien, pulvinar id justo a, viverra consectetur nisi. Aliquam non magna rutrum, tempus neque sed, accumsan lacus. Vivamus at bibendum nulla, eget pulvinar massa. Donec ornare vulputate leo, ac vehicula sapien aliquet ut. Vivamus ut sagittis orci, vel posuere lectus. Quisque pulvinar cursus justo non condimentum. Vestibulum non erat vitae erat lacinia accumsan sed aliquet dolor.
+
+In finibus ligula eget massa tempor tincidunt. Nulla semper velit ipsum, quis efficitur massa ultrices vitae. Nullam risus sapien, consequat sed tincidunt hendrerit, suscipit faucibus est. Quisque eu venenatis purus, eget efficitur nunc. Quisque vel quam quam. Proin vulputate erat sit amet massa semper finibus. Aliquam blandit nunc a ligula egestas commodo in vel purus. Etiam ac turpis diam. Nam in nisi congue, aliquam eros tincidunt, elementum felis. Etiam volutpat vehicula consectetur.
+
+Nam nec turpis at ex maximus interdum. Sed quis diam et eros varius sodales sed ac tortor. Cras ac consequat erat. Cras et sapien eu ipsum pulvinar lobortis. Ut a mauris ex. Proin mollis metus nec urna hendrerit, eget imperdiet nisi maximus. Suspendisse laoreet tristique lectus, posuere sagittis tortor. Mauris rutrum nec nulla ut hendrerit. Nulla scelerisque, diam ac ornare mollis, tortor nisi sagittis diam, quis ornare eros augue ut nulla. Sed porta, dolor tempus tempus mattis, nulla metus tempor est, eget semper enim ipsum at dolor. Aenean dictum metus lacus, fermentum consequat urna porta eget. Nullam eu ligula vitae erat tincidunt mattis. Ut dictum enim felis, in pretium sapien cursus vitae. Pellentesque finibus ullamcorper nisi eget blandit. Vivamus gravida, odio non aliquam bibendum, erat arcu facilisis libero, id posuere velit ante et odio. Quisque aliquet mauris enim, sed egestas nulla vestibulum consectetur.
+
+
+					</p>
+				</div>
+			</div>
+		);
+	}
 }
 
-export default Eveil
+export default Eveil;

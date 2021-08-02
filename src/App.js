@@ -1,6 +1,6 @@
 import React from 'react';
 import  './assets/App.css'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import Home from './pages/Home'
 import Nav from './components/Nav';
 import Footer from './components/Foter';
@@ -22,9 +22,18 @@ import Obseques from './pages/Sacrements/Obseques';
 import Oncation from './pages/Sacrements/Oncation';
 import Ordination from './pages/Sacrements/Ordination';
 import Reconsltation from './pages/Sacrements/Reconsultation';
+import  btnLogOut from './pages/About/btnLogOut'
 
+function PrivateRoute (props) {
+
+  if (localStorage.getItem('token')){
+    return <Route exact path ={props.path} component = {props.component} />
+  }
+  return <Route render = {()=> <Redirect to = "/login"/>}/>
+}
 
 function App() {
+  
   return (
           <div>
             <Router>
@@ -32,8 +41,8 @@ function App() {
             <Switch>
             <Route exact path='/' component={Home}/>
             <Route exact path='/Histoire' component={Histoire}/>
-            <Route exact path='/Equipe' component={Equipe}/>
-            <Route exact path='/Cours' component={Cours}/>
+            <PrivateRoute  path='/Equipe' component={Equipe}/>
+            <PrivateRoute path='/Cours' component={Cours}/>
             <Route exact path='/contact' component={Contact}/>
             <Route exact path='/Aumonerie' component={Aumonerie}/>
             <Route exact path='/Eveil' component={Eveil}/>
@@ -49,6 +58,7 @@ function App() {
             <Route exact path='/Reconsltation' component={Reconsltation}/>
             <Route exact path='/Signup' component={Signup}/>
             <Route exact path='/Login' component={Login}/>
+            <Route exact path='/' component={btnLogOut}/>
             </Switch>
             <Footer/>
             </Router>

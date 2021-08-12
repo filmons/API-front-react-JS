@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../../assets/Sacrement/Reconciliation.css";
 import photo from "../../source/equipes/eglise.png";
 
@@ -7,7 +7,7 @@ class Reconsultation extends React.Component {
 		return (
 			<div className="continer_reconsulation">
 				<div className="item_reconsultation">
-					<span>Réconciliation</span>
+					<span className="hedrsrec">Réconciliation</span>
 
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -46,8 +46,8 @@ class Reconsultation extends React.Component {
 					<div className="conf_tow_info">
 						<h5>Pour plus d'informations</h5>
 						<section className="des_photo_conf">
-							<img className="ferst" src={photo} alt="photo des éqipe" />
-							<div>
+							<img className="ferst" src={photo} alt="un de nos éqipe" />
+							<div className="description_fR_un">
 								<h4>Elodie Soulié</h4>
 								<p>Responsable Baptême et Mariage</p>
 								<a>baptemes.mariages@.com</a>

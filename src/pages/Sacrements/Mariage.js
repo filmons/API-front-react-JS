@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../../assets/Sacrement/Mariage.css";
 import photo from "../../source/equipes/eglise.png";
 
@@ -7,7 +7,7 @@ class Mariage extends React.Component {
 		return (
 			<div className="continer_mariage">
 				<div className="item_mariage">
-					<span>Mariage</span>
+					<span className="hadersmar">Mariage</span>
 					{/* <p>Vous avez décidé de vous marier.</p> */}
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -140,8 +140,8 @@ class Mariage extends React.Component {
 					<div className="Mar_tow_info">
 						<h5>Pour plus d'informations</h5>
 						<section className="des_photo_Mar">
-							<img className="ferst" src={photo} alt="photo des éqipe" />
-							<div>
+							<img className="ferst" src={photo} alt="resposable du mariage" />
+							<div className="description_fM_un">
 								<h4>Elodie Soulié</h4>
 								<p>Responsable Baptême et Mariage</p>
 								<a>baptemes.mariages@saintjeandemontmartre.com</a>

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../../assets/Sacrement/Obseques.css";
 import photo from "../../source/equipes/eglise.png";
 
@@ -7,7 +7,7 @@ class Obseques extends React.Component {
 		return (
 			<div className="continer_obseques">
 				<div className="item_obseques">
-					<span>Obsèques</span>
+					<span className="hadersobs">Obsèques</span>
 
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
@@ -39,7 +39,7 @@ class Obseques extends React.Component {
 						euismod neque. Mauris ut enim quis turpis blandit hendrerit ut a
 						nunc. Aliquam consectetur nec velit vel ultricies.
 					</p>
-					<br />
+
 					{/* <p>Découvrez la vie de séminariste et une certaine vision de la vocation à travers l'interview 
                     d'Augustin Reille enregistrée quelques mois avant son ordination. </p> */}
 					<p>
@@ -75,8 +75,8 @@ class Obseques extends React.Component {
 					<div className="obse_tow_info">
 						<h5>Pour plus d'informations</h5>
 						<section className="obse_photo_conf">
-							<img className="ferst" src={photo} alt="photo des éqipe" />
-							<div>
+							<img className="ferst" src={photo} alt=" éqipe" />
+							<div className="description_fO_un">
 								<h4>Elodie Soulié</h4>
 								<p>Responsable Baptême et Mariage</p>
 								<a>baptemes.mariages@.com</a>

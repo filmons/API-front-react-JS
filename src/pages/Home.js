@@ -1,6 +1,4 @@
 import React from "react";
-//import axios from 'axios';
-import Nav from "../components/Nav";
 import "../assets/Home.css";
 import Slide from "../components/index";
 
@@ -9,11 +7,11 @@ class Home extends React.Component {
 		return (
 			<div className="main">
 				<header className="App-header">
-					<div></div>
-				</header>
 				<Slide />
+				</header>
+				
 				<div className="fir-para">
-					<h1>L'Esprit Saint, virgule de l'âme</h1>
+					<h1 className="first-h">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
 						convallis nunc quis diam cursus consectetur. Donec quis placerat

@@ -14,7 +14,7 @@ function Nav() {
 	return (
 		<nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"} `}>
 			<div className="navbar_logo"><NavLink to="/" className="navbar_link" >
-			<h1>Paroisse Catholique Emanuel de Montreuil</h1>
+			<h1 className="icon_h">Paroisse Catholique Emanuel de Montreuil !</h1>
 					</NavLink> </div>
 			<ul className="navbar_links">
 				
@@ -23,7 +23,7 @@ function Nav() {
 					<button className="dropbtn">
 						<li className="navbar_item" >
 							<NavLink to="#" className="navbar_link">
-								Abut As
+								Abut Us
 							</NavLink>
 						</li>
 						<i className="fa fa-caret-down"></i>

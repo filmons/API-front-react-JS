@@ -1,86 +1,94 @@
-
-.continer_bateme{
-    display: flex;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    padding: 15rem 17rem 3rem;
-   
+.continer_bateme {
+	display: flex;
+	display: -ms-flexbox;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	padding: 10rem 17rem 3rem;
 }
-.item_bateme{
-    width: 357px;
-    height: 533px;
-    object-fit: cover;
-    object-position: 50% 50%;
-
+.item_bateme {
+	width: 357px;
+	height: 533px;
+	object-fit: cover;
+	object-position: 50% 50%;
 }
-span{
-    font-size: 75px;
-    color: #AA2513;
-    font-weight: 600;
-    padding-bottom: 13rem;
-
+.hedrsbat {
+	font-size: 75px;
+	color: #aa2513;
+	font-weight: 600;
+	padding-bottom: 13rem;
+	
 }
 
-.des_photo{
-    display: flex;
-    padding: 5% 2% 3% 0%;
+.des_photo {
+	display: flex;
+	padding: 5% 2% 3% 0%;
 }
-.ferst{
-    width: 14%;
-    height: 14%;
-    border-radius: 11rem;
-    border: solid 1px rgb(0, 255, 221);
+.ferst {
+	width: 16%;
+    height: 16%;
+    border-radius: 53%;
+    border: solid 4px rgb(27 169 158);
 }
-.tow_info{
-    background-color: #B5EAEA;
-    padding: 10%;
+.tow_info {
+	background-color: #b5eaea;
+	padding: 10%;
 }
- h5{
-    font-size: 2rem;
-    
+.continer_bateme h5 {
+	font-size: 2rem;
+	margin: 3%;
 }
-@media screen and (max-width:767px) {
-    .continer_bateme{
-      
-        display: flex;
-        display: -ms-flexbox;
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        padding: 16rem 2rem 3rem;
-       
-    }
-    .item_bateme{
-        width: 357px;
-        height: 533px;
-        object-fit: cover;
-        object-position: 50% 50%;
-    
-    }
-    .contact{
-        display: flex;
-    }
-    .des_photo{
-        display: flex;
-        padding: 5% 2% 3% 0%;
-    }
-    .ferst{
-        width: 14%;
-        height: 14%;
-        border-radius: 11rem;
-        border: solid 1px rgb(0, 255, 221);
-    }
-    .tow_info{
-        background-color: #B5EAEA;
-        padding: 10%;
-    }
-     h5{
-        font-size: 2rem;
-        
-    }
+.continer_bateme p{
+	margin: 3%;
 
+}
+.continer_bateme h2 {
+	margin: 3%;
+}
+.description_fB_un{
+	position:absolute;
+	left: 31%;
+
+}
+.description_fB_deux{
+	position:absolute;
+	left: 31%;
+
+}
+@media screen and (max-width: 767px) {
+	.continer_bateme {
+		display: flex;
+		display: -ms-flexbox;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
+		padding: 16rem 2rem 3rem;
+	}
+	.item_bateme {
+		width: 357px;
+		height: 533px;
+		object-fit: cover;
+		object-position: 50% 50%;
+	}
+	.contact {
+		display: flex;
+	}
+	.des_photo {
+		display: flex;
+		padding: 5% 2% 3% 0%;
+	}
+	.ferst {
+	width: 16%;
+    height: 16%;
+    border-radius: 53%;
+    border: solid 4px rgb(27 169 158);
+	}
+	.tow_info {
+		background-color: #b5eaea;
+		padding: 10%;
+	}
+	h5 {
+		font-size: 2rem;
+	}
 }
 /*
 .deuxchose{

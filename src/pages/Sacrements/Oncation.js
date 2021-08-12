@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../../assets/Sacrement/Oncation.css";
 import photo from "../../source/equipes/eglise.png";
 
@@ -7,8 +7,7 @@ class Oncation extends React.Component {
 		return (
 			<div className="continer_oncation">
 				<div className="item_oncation">
-					<span>Onction des Malades</span>
-
+					<span className="hedrsonc">Onction des Malades</span>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
 						finibus egestas commodo. Aliquam commodo justo sed ante tincidunt,
@@ -39,7 +38,6 @@ class Oncation extends React.Component {
 						euismod neque. Mauris ut enim quis turpis blandit hendrerit ut a
 						nunc. Aliquam consectetur nec velit vel ultricies.
 					</p>
-					<br />
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
 						finibus egestas commodo. Aliquam commodo justo sed ante tincidunt,
@@ -73,8 +71,8 @@ class Oncation extends React.Component {
 					<div className="onca_tow_info">
 						<h5>Pour plus d'informations</h5>
 						<section className="onca_photo_conf">
-							<img className="ferst" src={photo} alt="photo des éqipe" />
-							<div>
+							<img className="ferst" src={photo} alt="des éqipe" />
+							<div className="description_fON_un">
 								<h4>Elodie Soulié</h4>
 								<p>Responsable Baptême et Mariage</p>
 								<a>baptemes.mariages@.com</a>

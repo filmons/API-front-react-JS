@@ -6,7 +6,7 @@ class Histoire extends React.Component {
 	render() {
 		return (
 			<div className="continer_histoire">
-				<h1>Histoire et architecture</h1>
+				<h1 className="h_history">Histoire et architecture</h1>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
 					magna sapien, pulvinar id justo a, viverra consectetur nisi. Aliquam
@@ -38,7 +38,7 @@ class Histoire extends React.Component {
 					mauris enim, sed egestas nulla vestibulum consectetur.
 				</p>
 
-				<img className="img_structure" src={photo} />
+				<img className="img_structure" src={photo} alt="archtequture" />
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
 					magna sapien, pulvinar id justo a, viverra consectetur nisi. Aliquam

@@ -1,37 +1,56 @@
-.conuner_scoutisme{
-   
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    padding: 15rem 14rem 4rem;
+.conuner_scoutisme {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	padding: 15rem 14rem 4rem;
 }
-.item_scoutisme{
-    display: flex;
-    justify-content: center;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
+.item_scoutisme {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	padding: 5rem 3rem 4rem;
 }
-@media screen and (max-width:767px) {
-    .conuner_scoutisme{
-   
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
-        padding: 14rem 4rem 4rem;
-    }
-    .item_scoutisme{
-        display: flex;
-        justify-content: center;
-        justify-content: center;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
-    }
 
+.Scoutisme_fri{
+	position: absolute;
+    top: 57%;
+    left: 20%;
+    font-size: 2rem;
+
+
+}
+.Scoutisme_fri p{
+	background-color: white;
+	color: rgb(9, 64, 58);
+	margin-top: 2%;
+	left: 5%;
+	
+}
+.Scoutisme_fri h1{
+	background-color:#8B0000;
+	color: white;
+	line-height: normal;
+	letter-spacing: normal;
+	
+}
+@media screen and (max-width: 767px) {
+	.conuner_scoutisme {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-items: center;
+		padding: 14rem 4rem 4rem;
+	}
+	.item_scoutisme {
+		display: flex;
+		justify-content: center;
+		justify-content: center;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-items: center;
+	}
 }

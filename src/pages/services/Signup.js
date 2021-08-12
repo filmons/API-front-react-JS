@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/signup.css";
+import "../../assets/signup.css";
 import axios from "axios";
 import { Link } from "react-router-dom";
 
@@ -67,7 +67,7 @@ class signup extends React.Component {
 		};
 		console.log(options);
 		axios
-			.post("http://localhost:8000/V1/signup", options, {
+			.post("http://localhost:9000/V1/signup", options, {
 				headers: { "content-type": "application/json" },
 			})
 			.then((data) => {
@@ -104,20 +104,7 @@ class signup extends React.Component {
 						required
 						onChange={this.handleChange}
 					/>
-					{/* {this.state.errorFirtName ? (
-						<span
-							style={{
-								color: "red",
-								backgroundColor: "#f005",
-								padding: "5px",
-								border: "1px solid red",
-							}}
-						>
-							Error
-						</span>
-					) : (
-						""
-					)} */}
+				
 
 					<label htmlFor="email">
 						<b>last Name</b>

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../../assets/Sacrement/Bateme.css";
 import photo from "../../source/equipes/eglise.png";
 
@@ -7,7 +7,7 @@ class Bateme extends React.Component {
 		return (
 			<div className="continer_bateme">
 				<div className="item_batem">
-					<span>Bateme </span>
+					<span className="hedrsbat">Bateme </span>
 					<h2>Baptême des tout-petits (0 à 3 ans)</h2>
 					<p>
 						{" "}
@@ -41,7 +41,7 @@ class Bateme extends React.Component {
 						posuere velit ante et odio. Quisque aliquet mauris enim, sed egestas
 						nulla vestibulum consectetur.
 					</p>
-					<h3>La préparation du baptême </h3>
+					<h2>La préparation du baptême </h2>
 					{/* <h3>La préparation du baptême à Saint-Jean de Montmartre</h3> */}
 					{/* <ul>
 						<li>
@@ -115,7 +115,7 @@ class Bateme extends React.Component {
 							posuere velit ante et odio. Quisque aliquet mauris enim, sed
 							egestas nulla vestibulum consectetur. 
 						</p>
-						<h3>Baptême des enfants en âge scolaire</h3>
+						<h2>Baptême des enfants en âge scolaire</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
 						magna sapien, pulvinar id justo a, viverra consectetur nisi. Aliquam
 						non magna rutrum, tempus neque sed, accumsan lacus. Vivamus at
@@ -186,8 +186,8 @@ class Bateme extends React.Component {
 								baptêmes.mariages@saintjeandemontmartre.com
 							</p>
 						</ul> */}
-                        <p></p>
-						<h3>Baptême des adultes</h3>
+                      
+						<h2>Baptême des adultes</h2>
 						<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
 						magna sapien, pulvinar id justo a, viverra consectetur nisi. Aliquam
@@ -220,7 +220,7 @@ class Bateme extends React.Component {
 						nulla vestibulum consectetur.
 						</p>
 						<div></div>
-						<h4>À retenir</h4>
+						<h2>À retenir</h2>
 						<p>
 							Il est possible de demander et recevoir le baptême à tout âge.
 							Différentes préparations sont proposées selon les âges.
@@ -228,16 +228,16 @@ class Bateme extends React.Component {
 						<div className="tow_info">
 							<h5>Pour plus d'informations</h5>
 							<section className="des_photo">
-								<img className="ferst" src={photo} alt="photo des éqipe" />
-								<div>
+								<img className="ferst" src={photo} alt=" éqipe" />
+								<div className="description_fB_un">
 									<h4>Elodie Soulié</h4>
 									<p>Responsable Baptême et Mariage</p>
 									<a>baptemes.mariages@.com</a>
 								</div>
 							</section>
 							<section className="des_photo">
-								<img className="ferst" src={photo} alt="photo des éqipe" />
-								<div className="text">
+								<img className="ferst" src={photo} alt="des éqipe" />
+								<div className="description_fB_deux">
 									<h4>Elodie Soulié</h4>
 									<p>Responsable Baptême et Mariage</p>
 									<a>baptemes.mariages@.com</a>

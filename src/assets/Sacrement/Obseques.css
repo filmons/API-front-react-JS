@@ -1,27 +1,38 @@
-.continer_obseques{
-    padding: 6rem 1rem 1rem;
-    display: flex;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    padding: 15rem 17rem 3rem;
-
+.continer_obseques {
+	display: flex;
+	display: -ms-flexbox;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	padding: 10rem 17rem 3rem;
 }
-.item_obseques{
-    object-fit: cover;
-    object-position: 50% 50%;
-
-
+.item_obseques {
+	object-fit: cover;
+	object-position: 50% 50%;
 }
-.obse_tow_info{
-    background-color: #B5EAEA;
-    padding: 10%;
-
-
+.hadersobs {
+	font-size: 75px;
+	color: #aa2513;
+	font-weight: 600;
+	padding-bottom: 13rem;
 }
-.obse_photo_conf{
-    display: flex;
-    padding: 5% 2% 3% 0%;
-
+.obse_tow_info {
+	background-color: #b5eaea;
+	padding: 10%;
+}
+.obse_photo_conf {
+	display: flex;
+	padding: 5% 2% 3% 0%;
+}
+.continer_obseques p {
+	margin: 3%;
+}
+.description_fO_un {
+	position: absolute;
+	left: 31%;
+}
+.continer_obseques h5 {
+	font-size: 2rem;
+	margin: 3%;
+}
+@media screen and (max-width: 767px) {
 }

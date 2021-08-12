@@ -1,55 +1,61 @@
 import React from "react";
 import axios from "axios";
-import "../assets/login.css";
-
+import M from "materialize-css";
+import "../../assets/login.css";
 class Login extends React.Component {
 	constructor(props) {
 		super(props);
-
 		this.state = {
 			email: "",
 			password: "",
-			errorLogin: false,
-      		errorEmail: "is impity",
-			errorPassword: "",
+			//errorLogin: false,
+			errorEmail: false,
+			errorPassword: false,
+			error: "",
 		};
 		this.handleChange = this.handleChange.bind(this);
 		this.handleClick = this.handleClick.bind(this);
 	}
-
 	handleChange = (event) => {
 		this.setState({
 			[event.target.name]: event.target.value,
 		});
 	};
-
 	handleClick = () => {
+		if (this.state.email === "") {
+			this.setState({ errorEmail: true });
+		} else {
+			this.setState({ errorEmail: false });
+		}
+		if (this.state.password === "") {
+			this.setState({ errorPassword: true });
+		} else {
+			this.setState({ errorPassword: false });
+		}
+
 		const options = {
 			email: this.state.email,
 			password: this.state.password,
 		};
-
 		axios
-			.post("http://localhost:8000/V1/sigin", options, {
+			.post("http://localhost:9000/V1/sigin", options, {
 				headers: { "content-type": "application/json" },
 			})
-			
 			.then((data) => {
 				console.log(data);
-				if(data.status === 200){
-					this.props.history.push('/Cours');
+				//console.log(options);
+				if (data.status === 200) {
 					localStorage.setItem("token", data.data.token);
-		
-				}else{
+					//console.log(localStorage);// token
+				} else {
 					this.setState({
-						errorLogin: true
-					})
+						errorLogin: true,
+					});
 				}
-				//this.props.history.push('/');
-			  })
-			.catch((error) => console.log(error));
+				this.props.history.push("/");
+			})
+			.catch((error) => console.log(error.response.data.message));
 	};
-
 	render() {
 		return (
 			<section>
@@ -62,6 +68,11 @@ class Login extends React.Component {
 							<b>Email</b>
 						</label>
 						<input
+							style={
+								this.state.errorEmail
+									? { border: "1px solid red" }
+									: { border: "" }
+							}
 							className="prenom"
 							type="text"
 							placeholder="Enter Email"
@@ -69,7 +80,7 @@ class Login extends React.Component {
 							required
 							onChange={this.handleChange}
 						/>
-						<span></span>{this.state.errorEmail}
+						{/* <span></span>{this.state.errorEmail}
 						{this.state.errorEmail ? (
 						<span
 							style={{
@@ -83,19 +94,22 @@ class Login extends React.Component {
 						</span>
 					) : (
 						""
-					)}
-
+					)} */}
 						<label htmlFor="psw">
 							<b>Password</b>
 						</label>
 						<input
+							style={
+								this.state.errorPassword
+									? { border: "1px solid red" }
+									: { border: "" }
+							}
 							type="password"
 							placeholder="Enter Password"
 							name="password"
 							required
 							onChange={this.handleChange}
 						/>
-
 						<button
 							onClick={this.handleClick}
 							type="submit"

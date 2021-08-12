@@ -1,14 +1,16 @@
 import React from "react";
 import "../../assets/Enfance /Aumonerie.css";
-import photo from "../../source/equipes/eglise.png";
+import photo from "../../source/equipes/A1.png";
 
 class Aumonerie extends React.Component {
 	render() {
 		return (
 			<div className="conuner_aulonerie">
+				<div className="Aumonerie_fri">
 				<h1>Aumônerie</h1>
-				<img src={photo} alt="photo des éqipe" />
-
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+				<img className="Aumonerie_A" src={photo} alt="éqipe" />
 				<div className="item_aulonerie">
 					{/* <h1>Aumônerie</h1> */}
 					<p>

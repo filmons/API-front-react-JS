@@ -7,7 +7,7 @@ class Confirmation extends React.Component {
 		return (
 			<div className="continer_confirmation">
 				<div className="item_confirmation">
-					<span>Confirmation</span>
+					<span className="hedrscon">Confirmation</span>
 
 					{/* <p>La confirmation est le sacrement qui transmet la force de l’Esprit Saint, nécessaire pour toute vie chrétienne adulte. Ce sacrement est proposé aux jeunes à partir de 16 ans, dans le cadre de l’aumônerie et aux adultes avec l’équipe du catéchuménat.</p> */}
 					<p>
@@ -47,8 +47,8 @@ class Confirmation extends React.Component {
 					<div className="con_tow_info">
 						<h5>Pour plus d'informations</h5>
 						<section className="des_photo_con">
-							<img className="ferst" src={photo} alt="photo des éqipe" />
-							<div>
+							<img className="ferst" src={photo} alt="des éqipe" />
+							<div className="description_fCO_un">
 								<h4>Elodie Soulié</h4>
 								<p>Responsable Baptême et Mariage</p>
 								<a>baptemes.mariages@.com</a>

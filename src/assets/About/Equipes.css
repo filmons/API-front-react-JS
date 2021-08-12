@@ -1,26 +1,37 @@
-
-.all_img{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: center;
-    padding: 8rem 17rem 3rem;
-
-    }
-    .titre{
-    display: flex;
-    }
-    img{
-        border-radius: 16%;
-    }
-    @media screen and (max-width:767px) {
-        .all_img{
-            display: flex;
-            flex-wrap: wrap;
-            align-content: space-around;
-            justify-content: center;
-            padding: 15rem 2rem 7rem;
-        
-            }
-        
-        }
+.contuner_equips {
+	padding-top: 15%;
+	display: flex;
+}
+.all_img {
+	display: flex;
+	padding: 8rem 17rem 3rem;
+}
+.titre {
+	display: flex;
+}
+/* img {
+	border-radius: 16%;
+} */
+for {
+	position: absolute;
+	left: 23%;
+}
+.fir-para {
+	position: relative;
+}
+.fir {
+	position: absolute;
+	top: 20%;
+	left: 9%;
+	color: white;
+	font-size: 2rem;
+}
+@media screen and (max-width: 767px) {
+	.all_img {
+		display: flex;
+		flex-wrap: wrap;
+		align-content: space-around;
+		justify-content: center;
+		padding: 15rem 2rem 7rem;
+	}
+}

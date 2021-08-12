@@ -1,35 +1,58 @@
-.conuner_aulonerie{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    padding: 12rem 17rem 4rem;
+.conuner_aulonerie {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	padding: 12rem 17rem 4rem;
 }
-.item_aulonerie{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    padding: 12rem 3rem 4rem;
-    
+.item_aulonerie {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	padding: 5rem 3rem 4rem;
 }
-@media screen and (max-width:767px) {
-    .conuner_aulonerie{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
-        padding: 14rem 3rem 4rem;
-    }
-    .item_aulonerie{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
-        
-    }
+.Aumonerie_fri{
+	position: absolute;
+    top: 57%;
+    left: 20%;
+    font-size: 2rem;
+}
+.Aumonerie_fri h1{
+	background-color:#8B0000;
+	color: white;
+	line-height: normal;
+    letter-spacing: normal;
+
+}
+.Aumonerie_fri p{
+	background-color: white;
+	color: rgb(9, 64, 58);
+	margin-top: 2%;
+	left: 5%;
+}
+.Aumonerie_A{
+	/* width: 24rem;
+    height: 25rem;
+    padding: 1rem; */
+
+}
+@media screen and (max-width: 767px) {
+	.conuner_aulonerie {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-items: center;
+		padding: 14rem 3rem 4rem;
+	}
+	.item_aulonerie {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-items: center;
+	}
 }

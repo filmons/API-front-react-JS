@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../../assets/Sacrement/Ordination.css";
 import photo from "../../source/equipes/eglise.png";
 
@@ -7,7 +7,7 @@ class Ordination extends React.Component {
 		return (
 			<div className="continer_ordination">
 				<div className="item_ordination">
-					<span>Ordination</span>
+					<span className="hadersord">Ordination</span>
 
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
@@ -69,8 +69,8 @@ class Ordination extends React.Component {
 					<div className="ordi_tow_info">
 						<h5>Pour plus d'informations</h5>
 						<section className="ordi_photo_conf">
-							<img className="ferst" src={photo} alt="photo des éqipe" />
-							<div>
+							<img className="ferst" src={photo} alt="des éqipe" />
+							<div className="description_fOR_un">
 								<h4>Elodie Soulié</h4>
 								<p>Responsable Baptême et Mariage</p>
 								<a>baptemes.mariages@.com</a>

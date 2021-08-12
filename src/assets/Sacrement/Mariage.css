@@ -1,65 +1,74 @@
-.continer_mariage{
-    padding: 6rem 1rem 1rem;
-    display: flex;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    padding: 8rem 17rem 3rem;
+.continer_mariage {
 
+	display: flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	padding: 10rem 17rem 3rem;
+}
+.item_mariage {
+	object-fit: cover;
+	object-position: 50% 50%;
+	
+}
+.hadersmar {
+	font-size: 75px;
+	color: #aa2513;
+	font-weight: 600;
+	padding-bottom: 13rem;
+}
+.continer_mariage p{
+	margin: 3%;
 
 }
-.item_mariage{
-   
-    object-fit: cover;
-    object-position: 50% 50%;
-    padding: 8rem 3rem 3rem;
+.continer_mariage h2{
+	margin: 3%;
 
 }
-.ferst{
-    width: 14%;
-    height: 14%;
-    border-radius: 11rem;
-    border: solid 1px rgb(0, 255, 221);
+.ferst {
+	width: 16%;
+    height: 16%;
+    border-radius: 53%;
+    border: solid 4px rgb(27 169 158);
 }
-.Mar_tow_info{
-    background-color: #B5EAEA;
-    padding: 10%;
+.Mar_tow_info {
+	background-color: #b5eaea;
+	padding: 10%;
+}
+.des_photo_Mar {
+	display: flex;
+	padding: 5% 2% 3% 0%;
+}
+.continer_mariage h5{
+	font-size: 2rem;
+    margin: 3%;
+}
+.description_fM_un{
+	position: absolute;
+	left: 32%;
 
 }
-.des_photo_Mar{
-    display: flex;
-    padding: 5% 2% 3% 0%;
-
-}
-@media screen and (max-width:767px) {
-    .continer_mariage{
-    
-        display: flex;
-        display: -ms-flexbox;
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        padding: 17rem 0rem 3rem;
-    
-    
-    }
-    .item_mariage{
-        
-        object-fit: cover;
-        object-position: 50% 50%;
-        padding: 0rem 3rem 3rem;
-    
-    }
-    .Mar_tow_info{
-        background-color: #B5EAEA;
-        padding: 10%;
-    
-    }
-    .des_photo_Mar{
-        display: flex;
-        padding: 5% 2% 3% 0%;
-    
-    }
-
+@media screen and (max-width: 767px) {
+	.continer_mariage {
+		display: flex;
+		display: -ms-flexbox;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
+		padding: 17rem 0rem 3rem;
+	}
+	.item_mariage {
+		object-fit: cover;
+		object-position: 50% 50%;
+		padding: 0rem 3rem 3rem;
+	}
+	.Mar_tow_info {
+		background-color: #b5eaea;
+		padding: 10%;
+	}
+	.des_photo_Mar {
+		display: flex;
+		padding: 5% 2% 3% 0%;
+	}
 }

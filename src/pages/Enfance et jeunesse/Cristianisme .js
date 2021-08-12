@@ -1,14 +1,18 @@
 import React from "react";
 import "../../assets/Enfance /Cristanissme.css";
-import photo from "../../source/equipes/eglise.png";
+import photo from "../../source/equipes/A2.png";
 
 class Cristianisme extends React.Component {
 	render() {
 		return (
 			<div className="continer_cristaniseme">
+				<div className="christianism_fri">
+				<h1>Christianisme</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.</p>
+				</div>
+					
+					<img src={photo} alt="les éqipe" />
 				<div className="item_cristanism">
-					<h1>Christianisme</h1>
-					<img src={photo} alt="photo des éqipe" />
 
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse

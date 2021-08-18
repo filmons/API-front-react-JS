@@ -2,6 +2,12 @@ import React from "react";
 import "../../assets/signup.css";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import {toast} from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+import "../../assets/login.css";
+toast.configure();
+
+
 
 class signup extends React.Component {
 	constructor(props) {
@@ -72,9 +78,10 @@ class signup extends React.Component {
 			})
 			.then((data) => {
 				console.log(data);
+				toast.success(data.data.message, {position: toast.POSITION.TOP_CENTER})
 				this.props.history.push("/login");
 			})
-			.catch((error) => console.log(error));
+			.catch((error) => toast.error(error.response.data.message));
 		console.log(options);
 		//this.props.history.push('/login')
 	};
@@ -85,7 +92,7 @@ class signup extends React.Component {
 				<div className="form">
 					<h1>Sign Up</h1>
 					<p>Please fill in this form to create an account.</p>
-					<hr />
+					
 				</div>
 				<div className="lebls">
 					<label htmlFor="first_name">

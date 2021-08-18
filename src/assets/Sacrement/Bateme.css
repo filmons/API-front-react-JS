@@ -5,11 +5,9 @@
 	flex-direction: column;
 	padding: 10rem 17rem 3rem;
 }
-.item_bateme {
-	width: 357px;
-	height: 533px;
-	object-fit: cover;
-	object-position: 50% 50%;
+.item_batem p{
+	font-size: 20px;
+	
 }
 .hedrsbat {
 	font-size: 75px;
@@ -63,12 +61,12 @@
 		flex-direction: column;
 		padding: 16rem 2rem 3rem;
 	}
-	.item_bateme {
+	/* .item_bateme {
 		width: 357px;
 		height: 533px;
 		object-fit: cover;
 		object-position: 50% 50%;
-	}
+	} */
 	.contact {
 		display: flex;
 	}
@@ -77,8 +75,8 @@
 		padding: 5% 2% 3% 0%;
 	}
 	.ferst {
-	width: 16%;
-    height: 16%;
+	width: 40%;
+    height: 40%;
     border-radius: 53%;
     border: solid 4px rgb(27 169 158);
 	}

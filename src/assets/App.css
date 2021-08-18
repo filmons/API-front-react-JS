@@ -16,15 +16,15 @@ ul {
 a {
 	text-decoration: none;
 }
-.main {
+/* .main_app {
 	min-height: 200vh;
 	padding: 6rem 17rem 1rem;
 	background-color: azure;
 	display: flex;
 	flex-direction: column;
-}
+} */
 @media screen and (max-width: 767px) {
-	.main {
+	.main_app {
 		min-height: 200vh;
 		padding: 6rem 17rem 1rem;
 		background-color: #f1f1f1;

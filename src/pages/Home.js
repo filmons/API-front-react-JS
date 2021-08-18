@@ -5,7 +5,7 @@ import Slide from "../components/index";
 class Home extends React.Component {
 	render() {
 		return (
-			<div className="main">
+			<div className="main_home">
 				<header className="App-header">
 				<Slide />
 				</header>

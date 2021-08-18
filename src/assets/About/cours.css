@@ -1,19 +1,28 @@
-.container_class {
+/* .container_class {
 	display: flex;
 	justify-content: center;
 	padding: 12rem 1rem 3rem;
 }
 .logout {
-	background-color: #04aa6d;
+    display: flex;
+	background-color:#f44336;
     color: white;
     padding: 14px 20px;
     cursor: pointer;
     width: 88px;
     opacity: 0.9;
     display: -ms-flexbox;
-    display: flex;
     -ms-flex-pack: end;
-    justify-content: center;
+	justify-content: flex-end;
+    flex-direction: row;
+    align-content: space-between;
+	float: right;
+	position: relative;
+    bottom: 21%;
+}
+.logout a{
+	text-decoration: none;
+	color: white;
 }
 .class-card {
 }
@@ -23,19 +32,22 @@
 	flex-wrap: wrap;
 	flex-direction: column;
 	align-content: center;
-	align-items: center;
 	margin-left: 5rem;
 	margin-right: 5rem;
 }
+.item h3{
+	font-size: 4rem;
+
+}
 @media screen and (max-width: 767px) {
-	.container_calss {
+	.container_class {
 		display: flex;
 		justify-content: center;
-		padding: 15rem 0rem 4rem;
+		padding: 12rem 1rem 3rem;
 	}
-	.class-card {
+	
+	.item h3{
+		font-size: 4rem;
+	
 	}
-	.item p{
-		font-size: 20px;
-	}
-}
+} */

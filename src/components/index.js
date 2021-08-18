@@ -20,21 +20,18 @@ const breakPoints = [
 
 function slide() {
   return (
-    <div>
-      <h1 style={{ textAlign: "center" 
-      
-    
-    }}>Paroisse Catholique Emanuel de Montreuil</h1>
-      <div className="App">
+    <div className="header_slide">
+      <h1 className="home_header">Paroisse Emanuel</h1>
+      <div className="App_slide">
         <Carousel breakPoints={breakPoints}>
           <Item> <img className="sld_t" src={photo1} alt="hi"/></Item>
-          <Item> <img src={photo2} alt="hi"/></Item>
-          <Item> <img src={photo3} alt="hi"/></Item>
-          <Item> <img src={photo4} alt="hi"/></Item>
-          <Item> <img src={photo5} alt="hi"/></Item>
-          <Item> <img src={photo6} alt="hi"/></Item>
-          <Item> <img src={photo7} alt="hi"/></Item>
-          <Item> <img src={photo8} alt="hi"/></Item>
+          <Item> <img className="sld_t" src={photo2} alt="hi"/></Item>
+          <Item> <img className="sld_t" src={photo3} alt="hi"/></Item>
+          <Item> <img className="sld_t" src={photo4} alt="hi"/></Item>
+          <Item> <img className="sld_t" src={photo5} alt="hi"/></Item>
+          <Item> <img className="sld_t" src={photo6} alt="hi"/></Item>
+          <Item> <img className="sld_t" src={photo7} alt="hi"/></Item>
+          <Item> <img className="sld_t" src={photo8} alt="hi"/></Item>
         </Carousel>
       </div>
     </div>

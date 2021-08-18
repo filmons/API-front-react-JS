@@ -35,4 +35,41 @@
 	margin: 3%;
 }
 @media screen and (max-width: 767px) {
+	.continer_ordination {
+		display: flex;
+		display: -ms-flexbox;
+		flex-wrap: nowrap;
+		flex-direction: column;
+		padding: 10rem 1rem 3rem;
+	}
+	.item_ordination {
+		object-fit: cover;
+		object-position: 50% 50%;
+	}
+	.hadersord{
+		font-size: 75px;
+		color: #aa2513;
+		font-weight: 600;
+		padding-bottom: 13rem;
+	}
+	.ordi_tow_info {
+		background-color: #b5eaea;
+		padding: 10%;
+	}
+	.ordi_photo_conf {
+		display: flex;
+		padding: 5% 2% 3% 0%;
+	}
+	.continer_ordination  p {
+		margin: 3%;
+		font-size: 20px;
+	}
+	.description_fOR_un {
+		position: absolute;
+		left: 31%;
+	}
+	.continer_ordination  h5 {
+		font-size: 2rem;
+		margin: 3%;
+	}
 }

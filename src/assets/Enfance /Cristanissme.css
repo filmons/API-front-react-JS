@@ -1,7 +1,6 @@
 .continer_cristaniseme {
 	display: flex;
-    
-    justify-content: center;
+	justify-content: center;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
@@ -51,4 +50,60 @@
 		margin-right: 5rem;
 		margin-top: 6%;
 	}
+	@media screen and (max-width: 767px) {
+		.continer_cristaniseme {
+			display: flex;
+			padding: 12rem 0rem 4rem;
+		}
+		.item_cristanism {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			flex-direction: column;
+			align-content: center;
+			align-items: center;
+			margin-left: 5rem;
+			margin-right: 5rem;
+			margin-top: 6%;
+		}
+		.item_cristanism{
+			display: flex;
+			flex-direction: column;
+			flex-wrap: nowrap;
+			align-items: center;
+			padding: 5rem 3rem 4rem;
+		}
+		.christianism_fri{
+		position: absolute;
+		top: 51%;
+		left: 3%;
+		font-size: 2rem
+		
+		}
+		.christianism_fri h6{
+			background-color: white;
+			color: rgb(9, 64, 58);
+			margin-top: 2%;
+			left: 5%;
+			width: 27rem;
+			
+		}
+		.christianism_fri h1{
+			background-color:#8B0000;
+			color: white;
+			line-height: normal;
+			letter-spacing: normal;
+			width: 25rem;
+		
+		}
+		.foto_cristina{
+		width: 38rem;
+		height: 26rem;
+		}
+		.continer_cristaniseme p{
+			font-size: 20px;
+		}
+	}
+	
 }
+

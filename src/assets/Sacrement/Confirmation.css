@@ -36,6 +36,44 @@ margin:3%;
 
 }
 @media screen and (max-width: 767px) {
+	.continer_confirmation {	
+		display: flex;
+		display: -ms-flexbox;
+		flex-wrap: nowrap;
+		flex-direction: column;
+		padding: 10rem 1rem 3rem;
+	}
+	.item_confirmation {
+		object-fit: cover;
+		object-position: 50% 50%;
+	}
+	.hedrscon {
+		font-size: 52px;
+		color: #aa2513;
+		font-weight: 600;
+		padding-bottom: 13rem;
+	}
+	.con_tow_info {
+		background-color: #b5eaea;
+		padding: 10%;
+	}
+	.des_photo_con {
+		display: flex;
+		padding: 5% 2% 3% 0%;
+	}
+	.continer_confirmation p{
+	margin:3%;
+	font-size: 20px;
+	}
+	.description_fCO_un{
+		position:absolute;
+		left: 31%;
+	}
+	.continer_confirmation h5{
+		font-size: 2rem;
+		margin: 3%;
+	
+	}
 	
 
 }

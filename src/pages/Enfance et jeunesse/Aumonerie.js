@@ -10,7 +10,7 @@ class Aumonerie extends React.Component {
 				<h1>Aumônerie</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				</div>
-				<img className="Aumonerie_A" src={photo} alt="éqipe" />
+				<img className="foto_Aumonerie" src={photo} alt="éqipe" />
 				<div className="item_aulonerie">
 					{/* <h1>Aumônerie</h1> */}
 					<p>

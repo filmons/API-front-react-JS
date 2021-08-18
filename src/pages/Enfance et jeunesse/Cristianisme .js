@@ -8,10 +8,10 @@ class Cristianisme extends React.Component {
 			<div className="continer_cristaniseme">
 				<div className="christianism_fri">
 				<h1>Christianisme</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				</div>
 					
-					<img src={photo} alt="les éqipe" />
+					<img className="foto_cristina" src={photo} alt="les éqipe" />
 				<div className="item_cristanism">
 
 					<p>

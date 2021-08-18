@@ -24,7 +24,7 @@
 	display: flex;
 	padding: 5% 2% 3% 0%;
 }
-.continer_comunition h5,h2{
+.continer_comunition h5{
 	font-size: 2rem;
 	margin: 3%;
 }
@@ -41,12 +41,47 @@
 }
 @media screen and (max-width: 767px) {
 	.continer_comunition {
-		padding: 6rem 1rem 1rem;
 		display: flex;
 		display: -ms-flexbox;
 		display: flex;
 		flex-wrap: nowrap;
 		flex-direction: column;
-		padding: 15rem 17rem 3rem;
+		padding: 12rem 1rem 3rem;
+	}
+	.item_comunition {
+
+		object-fit: cover;
+		object-position: 50% 50%;
+	}
+	.hedrscom {
+		font-size: 75px;
+		color: #aa2513;
+		font-weight: 600;
+		padding-bottom: 13rem;
+	}
+	.com_tow_info {
+		background-color: #b5eaea;
+		padding: 10%;
+	}
+	.des_photo_com {
+		display: flex;
+		padding: 5% 2% 3% 0%;
+	}
+	.continer_comunition h5{
+		font-size: 2rem;
+		margin: 3%;
+	}
+	.continer_comunition h2{
+		margin: 3%;
+	
+	}
+	.continer_comunition p{
+		margin: 3%;
+		font-size: 20px;
+	}
+	.description_fC_un {
+		position:absolute;
+		left: 31%;
+	
 	}
 }

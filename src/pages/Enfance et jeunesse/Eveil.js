@@ -11,8 +11,8 @@ class Eveil extends React.Component {
 					<h1>L'éveil à la foi</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 					</div>
-					<img src={photo} alt=" éqipe" />
-				<div className="item_cristanism">
+					<img className="foto_eveil" src={photo} alt=" éqipe" />
+				<div className="item_cris">
 
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse

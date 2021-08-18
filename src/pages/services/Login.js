@@ -1,14 +1,16 @@
 import React from "react";
 import axios from "axios";
-import M from "materialize-css";
+import {toast} from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 import "../../assets/login.css";
+toast.configure();
+
 class Login extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
 			email: "",
 			password: "",
-			//errorLogin: false,
 			errorEmail: false,
 			errorPassword: false,
 			error: "",
@@ -52,9 +54,10 @@ class Login extends React.Component {
 						errorLogin: true,
 					});
 				}
-				this.props.history.push("/");
+				toast.success("welcome to class page", {position: toast.POSITION.TOP_CENTER})
+				this.props.history.push("/Cours");
 			})
-			.catch((error) => console.log(error.response.data.message));
+			.catch((error) =>  toast.error(error.response.data.message,{position: toast.POSITION.TOP_CENTER}));
 	};
 	render() {
 		return (
@@ -80,21 +83,9 @@ class Login extends React.Component {
 							required
 							onChange={this.handleChange}
 						/>
-						{/* <span></span>{this.state.errorEmail}
-						{this.state.errorEmail ? (
-						<span
-							style={{
-								color: "red",
-								backgroundColor: "#f005",
-								padding: "5px",
-								border: "1px solid red",
-							}}
-						>
-							Error
-						</span>
-					) : (
-						""
-					)} */}
+						<span>
+						</span>{this.state.errorEmail}
+						
 						<label htmlFor="psw">
 							<b>Password</b>
 						</label>

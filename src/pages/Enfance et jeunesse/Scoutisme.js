@@ -10,7 +10,7 @@ class Scoutisme extends React.Component {
 				<h1>Scoutisme</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-				<img src={photo} alt="Foo eating a sandwich." />
+				<img  className="foto_Scoutisme" src={photo} alt="Foo eating a sandwich." />
 
 				<div className="item_scoutisme">
 					<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>

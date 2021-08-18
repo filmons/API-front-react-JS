@@ -1,9 +1,12 @@
-.App {
+.App_slide {
 	font-family: sans-serif;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	/* height: 90vh; */
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 86vh;
 }
 
 .sld_t {
@@ -11,6 +14,22 @@
 	height: 25rem;
 	padding: 1rem;
 }
+.home_header {
+	text-align: "center" ;
+	display: flex;
+		font-size: 7rem;
+		color: rgb(9, 64, 58);
+		text-shadow: 0 0 0.033em #fff, 0 0 0.08em #fff;
+		animation-name: flicker;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+		padding-bottom: 1%;
+	}
+      
+    
+   
+
 @media screen and (max-width: 767px) {
 	.App {
 		font-family: sans-serif;
@@ -26,4 +45,18 @@
 		height: 10rem;
 		padding: 1rem;
 	}
+	.home_header {
+		text-align: "center" ;
+		display: flex;
+		justify-content: center;
+			font-size: 3rem;
+			
+			color: rgb(9, 64, 58);
+			text-shadow: 0 0 0.033em #fff, 0 0 0.08em #fff;
+			animation-name: flicker;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			padding-bottom: 1%;
+		}
 }

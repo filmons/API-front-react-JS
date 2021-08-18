@@ -1,12 +1,13 @@
 import React from "react";
 import "../../assets/About/Histoire.css";
 import photo from "../../source/equipes/archi.webp";
+import photoA from "../../source/equipes/archi-007.png"
 
 class Histoire extends React.Component {
 	render() {
 		return (
 			<div className="continer_histoire">
-				<h1 className="h_history">Histoire et architecture</h1>
+				<h1 className="header_history">Histoire et architecture</h1>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
 					magna sapien, pulvinar id justo a, viverra consectetur nisi. Aliquam
@@ -38,8 +39,8 @@ class Histoire extends React.Component {
 					mauris enim, sed egestas nulla vestibulum consectetur.
 				</p>
 
+				<p className="description_wright">
 				<img className="img_structure" src={photo} alt="archtequture" />
-				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
 					magna sapien, pulvinar id justo a, viverra consectetur nisi. Aliquam
 					non magna rutrum, tempus neque sed, accumsan lacus. Vivamus at
@@ -69,8 +70,9 @@ class Histoire extends React.Component {
 					facilisis libero, id posuere velit ante et odio. Quisque aliquet
 					mauris enim, sed egestas nulla vestibulum consectetur.
 				</p>
-
+					<img className="img_structureA" src={photoA} alt="archtequture" />
 				<p>
+					<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
 					magna sapien, pulvinar id justo a, viverra consectetur nisi. Aliquam
 					non magna rutrum, tempus neque sed, accumsan lacus. Vivamus at

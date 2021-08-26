@@ -7,7 +7,7 @@ class Bateme extends React.Component {
 		return (
 			<div className="continer_bateme">
 				<div className="item_batem">
-					<span className="hedrsbat">Bateme </span>
+					<span className="hedrsbat">Baptême</span>
 					<h2>Baptême des tout-petits (0 à 3 ans)</h2>
 					<p>
 						{" "}
@@ -219,7 +219,7 @@ class Bateme extends React.Component {
 						posuere velit ante et odio. Quisque aliquet mauris enim, sed egestas
 						nulla vestibulum consectetur.
 						</p>
-						<div></div>
+						
 						<h2>À retenir</h2>
 						<p>
 							Il est possible de demander et recevoir le baptême à tout âge.

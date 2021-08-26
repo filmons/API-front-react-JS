@@ -1,4 +1,4 @@
-/* .container_class {
+.container_class {
 	display: flex;
 	justify-content: center;
 	padding: 12rem 1rem 3rem;
@@ -16,17 +16,22 @@
 	justify-content: flex-end;
     flex-direction: row;
     align-content: space-between;
-	float: right;
-	position: relative;
-    bottom: 21%;
+	
 }
 .logout a{
 	text-decoration: none;
 	color: white;
+	
+}
+.item-card .logout {
+	position: relative;
+	left: 90%; 
+	bottom: 5%;
 }
 .class-card {
 }
-.item {
+
+.item-card {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -35,7 +40,7 @@
 	margin-left: 5rem;
 	margin-right: 5rem;
 }
-.item h3{
+.item-card h3{
 	font-size: 4rem;
 
 }
@@ -43,11 +48,49 @@
 	.container_class {
 		display: flex;
 		justify-content: center;
-		padding: 12rem 1rem 3rem;
+		padding: 15rem 1rem 3rem;
+	}
+	.logout {
+		display: flex;
+		background-color:#f44336;
+		color: white;
+		padding: 14px 20px;
+		cursor: pointer;
+		width: 88px;
+		opacity: 0.9;
+		display: -ms-flexbox;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+		flex-direction: row;
+		align-content: space-between;
+		float: right;
+		/* position: relative;
+		bottom: 21%; */
+	}
+	.logout a{
+		text-decoration: none;
+		color: white;
+	}
+	.class-card {
+	}
+	.item-card {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-content: center;
+		margin-left: 5rem;
+		margin-right: 5rem;
+	}
+	.item-card h3{
+		font-size: 3rem;
+		color: rgb(9, 64, 58);;
+		font-weight: 600;
+	
+	}
+	.item-card p{
+		font-size: 20px;
+	
 	}
 	
-	.item h3{
-		font-size: 4rem;
-	
-	}
-} */
+}

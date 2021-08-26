@@ -19,11 +19,15 @@
 	padding-bottom: 13rem;
 }
 .continer_mariage p{
-	margin: 3%;
-
+	margin: 1%;
+	
 }
 .continer_mariage h2{
-	margin: 3%;
+	margin: 1%;
+	color: rgb(9, 64, 58);;
+	font-weight: 600;
+	position: relative;
+    left: 2%;
 
 }
 .ferst {
@@ -56,12 +60,19 @@
 		display: flex;
 		flex-wrap: nowrap;
 		flex-direction: column;
-		padding: 17rem 0rem 0rem;
+		padding: 11rem 0rem 0rem;
 	}
 	.item_mariage {
 		object-fit: cover;
 		object-position: 50% 50%;
 		padding: 0rem 3rem 3rem;
+	}
+	
+	.hadersmar {
+		font-size: 45px;
+		color: #aa2513;
+		font-weight: 600;
+		padding-bottom: 13rem;
 	}.item_mariage p{
 		font-size: 20px;
 	}

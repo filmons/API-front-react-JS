@@ -13,6 +13,7 @@ class Eveil extends React.Component {
 					</div>
 					<img className="foto_eveil" src={photo} alt=" éqipe" />
 				<div className="item_cris">
+				<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
 
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse

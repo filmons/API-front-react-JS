@@ -10,7 +10,6 @@ class Comunition extends React.Component {
 					<span className="hedrscom">Communion</span>
 					<h2>La première communion ou le sacrement de l’eucharistie</h2>
 
-
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						Pellentesque luctus, lectus vitae suscipit tempus, ante eros
@@ -116,6 +115,14 @@ class Comunition extends React.Component {
 						senectus et netus et malesuada fames ac turpis egestas. Suspendisse
 						id ex et tortor vestibulum vulputate. Pellentesque elementum
 						sagittis posuere.
+					</p>
+					<h2>À retenir</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Pellentesque luctus, lectus vitae suscipit tempus, ante eros
+						tincidunt elit, et viverra mauris massa vitae turpis. Ut nibh
+						libero, euismod et diam eget, fermentum rhoncus diam. Mauris congue
+						at ipsum sed scelerisque.
 					</p>
 					<div className="com_tow_info">
 						<h5>Pour plus d'informations</h5>

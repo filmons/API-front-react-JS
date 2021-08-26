@@ -10,11 +10,11 @@ function Nav() {
 	const handelShowLinks = () => {
 		setShowLinks(!showLinks); // to check the class nav-bar
 	};
-	console.log(showLinks);
+	//console.log(showLinks);
 	return (
 		<nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"} `}>
 			<div className="navbar_logo"><NavLink to="/" className="navbar_link" >
-			<h1 className="icon_h">Paroisse Catholique Emanuel de Montreuil !</h1>
+			<h1 className="icon_h">Paroisse Catholique Emmanuel de Montreuil </h1>
 					</NavLink> </div>
 			<ul className="navbar_links">
 				

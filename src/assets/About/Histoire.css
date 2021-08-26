@@ -22,7 +22,7 @@
     object-fit: cover;
     object-position: 50% 50%;
 	position: relative;
-    left: 42%;
+    left: 29%;
 }
 .description_wright{
 	display: flex;
@@ -36,12 +36,12 @@
 }
 @media screen and (max-width: 767px) {
 	.continer_histoire {
-		padding: 11rem 1rem 1rem;
 		display: flex;
 		display: -ms-flexbox;
 		display: flex;
 		flex-wrap: nowrap;
 		flex-direction: column;
+		padding: 11rem 2rem 3rem;
 		
 	}
 
@@ -66,7 +66,7 @@
 		object-fit: cover;
 		object-position: 50% 50%;
 		position: relative;
-		left: 42%;
+		left: 29%;
 	}
 	.description_wright{
 		display: flex;

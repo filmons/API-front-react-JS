@@ -24,7 +24,16 @@
 	padding-bottom: 13rem;
 }
 .continer_reconsulation p {
-	margin: 3%;
+	margin: 1%;
+	padding: 0rem 2rem 1rem;
+}
+
+.continer_reconsulation h2 {
+	margin: 1%;
+	color: rgb(9, 64, 58);;
+	font-weight: 600;
+	position: relative;
+    left: 2%;
 }
 .description_fR_un {
 	position: absolute;

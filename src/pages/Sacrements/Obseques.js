@@ -8,7 +8,7 @@ class Obseques extends React.Component {
 			<div className="continer_obseques">
 				<div className="item_obseques">
 					<span className="hadersobs">Obsèques</span>
-
+					<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
 						finibus egestas commodo. Aliquam commodo justo sed ante tincidunt,
@@ -71,6 +71,14 @@ class Obseques extends React.Component {
 						libero vel lacinia. Quisque semper condimentum tempor. Morbi nec
 						euismod neque. Mauris ut enim quis turpis blandit hendrerit ut a
 						nunc. Aliquam consectetur nec velit vel ultricies.
+					</p>
+					<h2>À retenir</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Pellentesque luctus, lectus vitae suscipit tempus, ante eros
+						tincidunt elit, et viverra mauris massa vitae turpis. Ut nibh
+						libero, euismod et diam eget, fermentum rhoncus diam. Mauris congue
+						at ipsum sed scelerisque.
 					</p>
 					<div className="obse_tow_info">
 						<h5>Pour plus d'informations</h5>

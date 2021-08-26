@@ -1,6 +1,12 @@
 .containe {
 	padding: 6rem 1rem 1rem;
 }
+.header_signup{
+	padding-bottom: 1%;
+    color: rgb(9, 64, 58);
+    font-size: 2rem;
+
+}
 
 .form {
 	padding: 6rem 1rem 1rem;

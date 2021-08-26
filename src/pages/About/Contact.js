@@ -12,7 +12,7 @@ class contact extends React.Component{
                       <h2> remplissiez cet formulere pour s'il vous plait</h2>
                       <br/>
                     <label htmlFor="email">
-						<b>last Name</b>
+						<b>Nom</b>
 					</label>
 					<input
 						type="text"
@@ -33,10 +33,10 @@ class contact extends React.Component{
 						onChange={this.handleChange}
 					/>
                      <label htmlFor="text">
-                         <b>Enter your therde description:</b>
+                         <b>Écrivez votre  message</b>
                          </label>
         <input className="contact_input" type="text
-        " placeholder="description "
+        " placeholder="Écrivez votre  message"
          name="description" 
          required />
         

@@ -8,7 +8,8 @@ class Mariage extends React.Component {
 			<div className="continer_mariage">
 				<div className="item_mariage">
 					<span className="hadersmar">Mariage</span>
-					{/* <p>Vous avez décidé de vous marier.</p> */}
+					{/* <p></p> */}
+					<h2>Vous avez décidé de vous marier. </h2>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						Pellentesque luctus, lectus vitae suscipit tempus, ante eros
@@ -136,6 +137,11 @@ class Mariage extends React.Component {
 							de contacter directement la paroisse dans laquelle se déroulera
 							votre mariage
 						</p> */}
+						<h2>À retenir</h2>
+						<p>
+							Il est possible de demander et recevoir le baptême à tout âge.
+							Différentes préparations sont proposées selon les âges.
+						</p>
 					</div>
 					<div className="Mar_tow_info">
 						<h5>Pour plus d'informations</h5>

@@ -27,6 +27,15 @@
 	left: 5%;
 	
 }
+.item_cristanism h2{
+	color: rgb(9, 64, 58);;
+	font-weight: 600;
+	position: relative;
+	right: 26%;
+	padding-bottom: 1%;
+
+
+}
 .christianism_fri h1{
 	background-color:#8B0000;
 	color: white;
@@ -34,22 +43,7 @@
 	letter-spacing: normal;
 
 }
-@media screen and (max-width: 767px) {
-	.continer_cristaniseme {
-		display: flex;
-		padding: 12rem 0rem 4rem;
-	}
-	.item_cristanism {
-		display: flex;
-		justify-content: center;
-		flex-wrap: wrap;
-		flex-direction: column;
-		align-content: center;
-		align-items: center;
-		margin-left: 5rem;
-		margin-right: 5rem;
-		margin-top: 6%;
-	}
+
 	@media screen and (max-width: 767px) {
 		.continer_cristaniseme {
 			display: flex;
@@ -71,7 +65,7 @@
 			flex-direction: column;
 			flex-wrap: nowrap;
 			align-items: center;
-			padding: 5rem 3rem 4rem;
+			padding: 1rem 0rem 4rem;
 		}
 		.christianism_fri{
 		position: absolute;
@@ -80,6 +74,9 @@
 		font-size: 2rem
 		
 		}
+		.item_cristanism p{
+			font-size: 20px;
+		}
 		.christianism_fri h6{
 			background-color: white;
 			color: rgb(9, 64, 58);
@@ -87,6 +84,15 @@
 			left: 5%;
 			width: 27rem;
 			
+		}
+		.item_cristanism h2{
+			color: rgb(9, 64, 58);;
+			font-weight: 600;
+			position: relative;
+			right: 0%;
+			padding-bottom: 1%;
+		
+		
 		}
 		.christianism_fri h1{
 			background-color:#8B0000;
@@ -97,7 +103,7 @@
 		
 		}
 		.foto_cristina{
-		width: 38rem;
+		width: 33rem;
 		height: 26rem;
 		}
 		.continer_cristaniseme p{
@@ -105,5 +111,4 @@
 		}
 	}
 	
-}
 

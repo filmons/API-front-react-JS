@@ -21,7 +21,7 @@ const breakPoints = [
 function slide() {
   return (
     <div className="header_slide">
-      <h1 className="home_header">Paroisse Emanuel</h1>
+      <h1 className="home_header">Paroisse Emmanuel</h1>
       <div className="App_slide">
         <Carousel breakPoints={breakPoints}>
           <Item> <img className="sld_t" src={photo1} alt="hi"/></Item>

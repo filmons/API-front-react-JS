@@ -8,7 +8,7 @@ class Ordination extends React.Component {
 			<div className="continer_ordination">
 				<div className="item_ordination">
 					<span className="hadersord">Ordination</span>
-
+					<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
 						erat risus, pellentesque eu arcu et, vehicula posuere tortor. Nunc
@@ -37,7 +37,7 @@ class Ordination extends React.Component {
 						imperdiet. Vestibulum ante ipsum primis in faucibus orci luctus et
 						ultrices posuere cubilia curae;
 					</p>
-					<br />
+				
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
 						erat risus, pellentesque eu arcu et, vehicula posuere tortor. Nunc
@@ -65,6 +65,14 @@ class Ordination extends React.Component {
 						porta turpis ac placerat tristique. Etiam eu odio at risus lobortis
 						imperdiet. Vestibulum ante ipsum primis in faucibus orci luctus et
 						ultrices posuere cubilia curae;
+					</p>
+					<h2>À retenir</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Pellentesque luctus, lectus vitae suscipit tempus, ante eros
+						tincidunt elit, et viverra mauris massa vitae turpis. Ut nibh
+						libero, euismod et diam eget, fermentum rhoncus diam. Mauris congue
+						at ipsum sed scelerisque.
 					</p>
 					<div className="ordi_tow_info">
 						<h5>Pour plus d'informations</h5>

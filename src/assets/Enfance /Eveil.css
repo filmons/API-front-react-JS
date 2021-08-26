@@ -9,10 +9,18 @@
 	align-items: center;
 	padding: 5rem 3rem 4rem;
 }
+.item_cris h2{
+	color: rgb(9, 64, 58);;
+	font-weight: 600;
+	position: relative;
+	right: 26%;
+	padding-bottom: 1%;
+
+}
 .Eveil_fri{
 	position: absolute;
-    top: 57%;
-    left: 20%;
+    top: 50%;
+    left: 26%;
     font-size: 2rem;
 
 }
@@ -47,6 +55,14 @@
 		align-items: center;
 		padding: 5rem 3rem 4rem;
 	}
+	.item_cris h2{
+		color: rgb(9, 64, 58);;
+		font-weight: 600;
+		position: relative;
+		right: 0%;
+		padding-bottom: 1%;
+	
+	}
 	.Eveil_fri{
 	position: absolute;
     top: 51%;
@@ -68,6 +84,10 @@
 		left: 5%;
 		
 		
+	}
+	.foto_eveil{
+		width: 33rem;
+		height: 26rem;
 	}
 	
 }

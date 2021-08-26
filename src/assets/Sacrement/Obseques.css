@@ -24,8 +24,15 @@
 	padding: 5% 2% 3% 0%;
 }
 .continer_obseques p {
-	margin: 3%;
+	margin: 1%;
 }
+.continer_obseques h2{
+	margin: 1%;
+	color: rgb(9, 64, 58);;
+	font-weight: 600;
+	position: relative;
+    left: 1%;
+	}
 .description_fO_un {
 	position: absolute;
 	left: 31%;
@@ -47,7 +54,7 @@
 		object-position: 50% 50%;
 	}
 	.hadersobs {
-		font-size: 75px;
+		font-size: 45px;
 		color: #aa2513;
 		font-weight: 600;
 		padding-bottom: 13rem;
@@ -64,6 +71,7 @@
 		margin: 3%;
 		font-size: 20px;
 	}
+	
 	.description_fO_un {
 		position: absolute;
 		left: 31%;

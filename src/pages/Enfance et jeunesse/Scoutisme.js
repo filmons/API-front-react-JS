@@ -13,7 +13,8 @@ class Scoutisme extends React.Component {
 				<img  className="foto_Scoutisme" src={photo} alt="Foo eating a sandwich." />
 
 				<div className="item_scoutisme">
-					<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+				<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+
 					<p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
 						magna sapien, pulvinar id justo a, viverra consectetur nisi. Aliquam
@@ -45,7 +46,8 @@ class Scoutisme extends React.Component {
 						posuere velit ante et odio. Quisque aliquet mauris enim, sed egestas
 						nulla vestibulum consectetur.
 					</p>
-					<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+					<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+
 					<p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
 						magna sapien, pulvinar id justo a, viverra consectetur nisi. Aliquam

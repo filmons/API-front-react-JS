@@ -14,6 +14,14 @@
 	align-items: center;
 	padding: 5rem 3rem 4rem;
 }
+.item_aulonerie h2{
+	color: rgb(9, 64, 58);;
+	font-weight: 600;
+	position: relative;
+    right: 26%;
+	padding-bottom: 1%;
+
+}
 .Aumonerie_fri{
 	position: absolute;
     top: 57%;
@@ -54,10 +62,19 @@
 		flex-direction: column;
 		flex-wrap: nowrap;
 		align-items: center;
+		padding: 1rem 0rem 4rem;
 	}
 	.item_aulonerie p {
 		font-size: 20px;
 
+	}
+	.item_aulonerie h2{
+		color: rgb(9, 64, 58);;
+		font-weight: 600;
+		position: relative;
+		right: 1%;
+		padding-bottom: 1%;
+	
 	}
 	.Aumonerie_fri{
 		position: absolute;
@@ -87,7 +104,7 @@
 
 	}
 	.foto_Aumonerie{
-		width: 38rem;
+		width: 33rem;
 		height: 26rem;
 	}
 }

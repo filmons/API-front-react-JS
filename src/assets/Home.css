@@ -8,7 +8,8 @@
 p {
 	margin-bottom: 1rem;
 	font-size: 20px;
-	border-radius: 10%;
+	/* border-radius: 10%; */
+	
 }
 
 .main_home {
@@ -16,7 +17,7 @@ p {
  	padding: 10rem 23rem 1rem;
 }
 .first-h {
-	color: black;
+	color: rgb(9, 64, 58);
 }
 @media screen and (max-width: 767px) {
 	.map_img {

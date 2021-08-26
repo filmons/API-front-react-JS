@@ -13,6 +13,7 @@ class Cristianisme extends React.Component {
 					
 					<img className="foto_cristina" src={photo} alt="les éqipe" />
 				<div className="item_cristanism">
+				<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
 
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse

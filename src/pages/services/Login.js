@@ -64,7 +64,7 @@ class Login extends React.Component {
 			<section>
 				<div className="container">
 					<div className="form_log">
-						<h1 className>Login</h1>
+						<h1 className="header_login">Login</h1>
 					</div>
 					<div className="lebls">
 						<label htmlFor="email">

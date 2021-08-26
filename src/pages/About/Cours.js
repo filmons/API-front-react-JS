@@ -28,7 +28,7 @@ class Cours extends React.Component {
 	render() {
 		return (
 			<div className="container_class">
-				<div className="class-card">
+				<div className="item-card">
 					<div className="logout">
 						
 						<a onClick={this.deleteToken} href="/">

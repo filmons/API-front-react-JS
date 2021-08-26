@@ -13,6 +13,7 @@ class Aumonerie extends React.Component {
 				<img className="foto_Aumonerie" src={photo} alt="éqipe" />
 				<div className="item_aulonerie">
 					{/* <h1>Aumônerie</h1> */}
+					<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
 						magna sapien, pulvinar id justo a, viverra consectetur nisi. Aliquam
@@ -108,6 +109,7 @@ class Aumonerie extends React.Component {
 						posuere velit ante et odio. Quisque aliquet mauris enim, sed egestas
 						nulla vestibulum consectetur.
 					</p>
+					
 				</div>
 			</div>
 		);

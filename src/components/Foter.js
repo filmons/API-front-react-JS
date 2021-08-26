@@ -9,15 +9,12 @@ class Footer extends React.Component {
 			<footer>
 				<div className="sociaux">
 					<p>
-						Paroisse Orthodoxe Emanuel de Montreuil Paroisse Catholique Emanuel
+						Paroisse Orthodoxe Emanuel de Montreuil Paroisse Orthodoxe Emanuel
 						de Montreuil
 					</p>
-				</div>
-				<hr />
-				<div className="sociaux">
 					<p>
-					Paroisse  Orthodoxe Emanuel de Montreuil, 59 rue Edouard-Branly 93100 MONTREUIL 
-						| contact@saintjeandemontmartre.com
+						Paroisse Orthodoxe Emanuel de Montreuil, 59 rue Edouard-Branly 93100
+						MONTREUIL | contact@saintjeandemontmartre.com
 					</p>
 				</div>
 			</footer>

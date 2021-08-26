@@ -24,7 +24,8 @@
 	padding: 5% 2% 3% 0%;
 }
 .continer_confirmation p{
-margin:3%;
+margin:1%;
+padding: 0rem 2rem 1rem;
 }
 .description_fCO_un{
 	position:absolute;
@@ -35,6 +36,15 @@ margin:3%;
 	margin: 3%;
 
 }
+.continer_confirmation h2{
+	margin: 1%;
+	color: rgb(9, 64, 58);;
+	font-weight: 600;
+	position: relative;
+    left: 2%;
+
+}
+
 @media screen and (max-width: 767px) {
 	.continer_confirmation {	
 		display: flex;
@@ -48,7 +58,7 @@ margin:3%;
 		object-position: 50% 50%;
 	}
 	.hedrscon {
-		font-size: 52px;
+		font-size: 45px;
 		color: #aa2513;
 		font-weight: 600;
 		padding-bottom: 13rem;
@@ -62,8 +72,10 @@ margin:3%;
 		padding: 5% 2% 3% 0%;
 	}
 	.continer_confirmation p{
-	margin:3%;
+	
 	font-size: 20px;
+	margin:1%;
+	padding: 0rem 1rem 1rem;
 	}
 	.description_fCO_un{
 		position:absolute;

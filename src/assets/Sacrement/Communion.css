@@ -3,7 +3,7 @@
 	display: -ms-flexbox;
 	flex-wrap: nowrap;
 	flex-direction: column;
-	padding: 10rem 17rem 3rem;
+	padding: 9rem 17rem 3rem;
 }
 .item_comunition {
 
@@ -29,10 +29,18 @@
 	margin: 3%;
 }
 .continer_comunition h2{
+	margin: 1%;
+	color: rgb(9, 64, 58);;
+	font-weight: 600;
+	position: relative;
+    left: 2%;
+	
 
 }
 .continer_comunition p{
-	margin: 3%;
+	margin: 1%;
+	padding: 0rem 2rem 1rem;
+
 }
 .description_fC_un {
 	position:absolute;
@@ -46,7 +54,7 @@
 		display: flex;
 		flex-wrap: nowrap;
 		flex-direction: column;
-		padding: 12rem 1rem 3rem;
+		padding: 11rem 1rem 3rem;
 	}
 	.item_comunition {
 
@@ -54,7 +62,7 @@
 		object-position: 50% 50%;
 	}
 	.hedrscom {
-		font-size: 75px;
+		font-size: 54px;
 		color: #aa2513;
 		font-weight: 600;
 		padding-bottom: 13rem;
@@ -72,13 +80,15 @@
 		margin: 3%;
 	}
 	.continer_comunition h2{
-		margin: 3%;
+		margin: 0%;
 	
 	}
 	.continer_comunition p{
-		margin: 3%;
+		margin: 1%;
 		font-size: 20px;
+		padding: 0rem 0rem 0rem;
 	}
+	
 	.description_fC_un {
 		position:absolute;
 		left: 31%;

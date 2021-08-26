@@ -17,17 +17,9 @@ h1 {
 div .navbar_logo {
 	color: brown;
 }
-icon_h {
-	display: flex;
-		font-size: 10rem;
-		color: red;
-		text-shadow: 0 0 0.033em #fff, 0 0 0.08em #fff, 0 0 0.1em #ce0033,
-			0 0 0.2em #ce0033, 0 0 0.3em #ce0033, 0 0 1em #ce0033, 0 0 1.5em#ce0033;
-		animation-name: flicker;
-		animation-duration: 5s;
-		animation-iteration-count: infinite;
-		animation-direction: alternate;
-
+.icon_h {
+	margin-left: 1rem;
+	
 }
 .navbar ul li {
 	justify-content: space-between;
@@ -38,7 +30,7 @@ icon_h {
 .navbar_link {
 	padding: 0 4.5rem;
 	color:gold;
-	font-size: 16px;
+	font-size: 17px;
 }
 .navbar_burger {
 	width: 40px;

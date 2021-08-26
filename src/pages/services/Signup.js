@@ -90,13 +90,13 @@ class signup extends React.Component {
 		return (
 			<div className="container">
 				<div className="form">
-					<h1>Sign Up</h1>
-					<p>Please fill in this form to create an account.</p>
+					<h1 className="header_signup">Sign Up</h1>
+					<p>Créer un compte</p>
 					
 				</div>
 				<div className="lebls">
 					<label htmlFor="first_name">
-						<b>first Name</b>
+						<b>Prénom</b>
 					</label>
 					<input
 						style={
@@ -114,7 +114,7 @@ class signup extends React.Component {
 				
 
 					<label htmlFor="email">
-						<b>last Name</b>
+						<b>Nom</b>
 					</label>
 					<input
 						style={
@@ -162,7 +162,7 @@ class signup extends React.Component {
 					/>
 
 					<label htmlFor="city">
-						<b>city</b>
+						<b>Ville</b>
 					</label>
 					<input
 						style={
@@ -178,7 +178,7 @@ class signup extends React.Component {
 					/>
 
 					<p>
-						By creating an account you agree to our{" "}
+					En créant un compte, vous acceptez nos{" "}
 						<a href="/polisie" style={{ color: "dodgerblue " }}>
 							Terms & Privacy
 						</a>

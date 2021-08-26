@@ -10,6 +10,7 @@ export default styled.div`
   color: #fff;
   margin: 0 15px;
   font-size: 4em;
+  
 `;
 
- // background-color: #00008B;
+ // background-color: #00008B; //linge 12 

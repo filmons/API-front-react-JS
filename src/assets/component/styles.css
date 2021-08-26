@@ -6,13 +6,15 @@
     align-items: center;
     -ms-flex-pack: center;
     justify-content: center;
-    height: 86vh;
+    height: 64vh;
+
+	
 }
 
 .sld_t {
-	width: 24rem;
-	height: 25rem;
-	padding: 1rem;
+	width: 28rem;
+	height: 26rem;
+	padding: 4rem;
 }
 .home_header {
 	text-align: "center" ;
@@ -25,6 +27,7 @@
 		animation-iteration-count: infinite;
 		animation-direction: alternate;
 		padding-bottom: 1%;
+		padding-left: 6%;
 	}
       
     

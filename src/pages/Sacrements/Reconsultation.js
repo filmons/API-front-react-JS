@@ -8,6 +8,7 @@ class Reconsultation extends React.Component {
 			<div className="continer_reconsulation">
 				<div className="item_reconsultation">
 					<span className="hedrsrec">Réconciliation</span>
+					<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
 
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -42,6 +43,14 @@ class Reconsultation extends React.Component {
 						senectus et netus et malesuada fames ac turpis egestas. Suspendisse
 						id ex et tortor vestibulum vulputate. Pellentesque elementum
 						sagittis posuere.
+					</p>
+					<h2>À retenir</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Pellentesque luctus, lectus vitae suscipit tempus, ante eros
+						tincidunt elit, et viverra mauris massa vitae turpis. Ut nibh
+						libero, euismod et diam eget, fermentum rhoncus diam. Mauris congue
+						at ipsum sed scelerisque.
 					</p>
 					<div className="conf_tow_info">
 						<h5>Pour plus d'informations</h5>

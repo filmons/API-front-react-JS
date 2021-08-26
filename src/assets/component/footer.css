@@ -1,5 +1,3 @@
-/*  Footer */
-
 footer {
 	display: flex;
 	flex-direction: column;
@@ -15,12 +13,38 @@ footer {
 }
 
 footer p {
-	padding: 3rem;
+	padding: 5rem;
 	color: white;
+	font-weight: 600;
 }
 
 hr {
 	width: 50%;
 	margin: auto;
 	color: grey;
+}
+@media screen and (max-width: 767px) {
+	footer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background-color: #335380;
+		margin-top: 11rem;
+	}
+	.sociaux {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+	}
+	
+	footer p {
+	padding: 2rem;
+    color: white;
+    font-size: 20px;
+   
+	}
+	
+	
+
 }

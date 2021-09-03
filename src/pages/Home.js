@@ -1,6 +1,8 @@
 import React from "react";
 import "../assets/Home.css";
+import Calander from "../components/calander";
 import Slide from "../components/index";
+
 
 class Home extends React.Component {
 	render() {
@@ -68,6 +70,7 @@ class Home extends React.Component {
 						ridiculus mus.
 					</p>
 				</div>
+<Calander/>
 			</div>
 		);
 	}

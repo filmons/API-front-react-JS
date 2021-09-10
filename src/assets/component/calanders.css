@@ -1,0 +1,8 @@
+.calander_parti{
+    display: flex;
+    padding: 2rem  3rem 4rem ;
+    font-size: 2rem;
+}
+.calander_parti > p{
+    font-size: 5rem;
+}

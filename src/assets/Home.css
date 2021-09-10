@@ -14,7 +14,7 @@ p {
 
 .main_home {
 	min-height: 167vh;
- 	padding: 10rem 23rem 1rem;
+ 	padding: 10rem 6rem 1rem;
 }
 .first-h {
 	color: rgb(9, 64, 58);
@@ -39,7 +39,7 @@ p {
 	}
 	.main_home {
 		min-height: 200vh;
-		padding: 10rem 1rem 1rem;
+		padding: 5rem 1rem 1rem;
 	}
 	.main_home p  {
 		margin-bottom: 1rem;

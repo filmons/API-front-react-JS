@@ -1,16 +1,22 @@
 import React from "react";
 import "../assets/Home.css";
 import Calander from "../components/calander";
-import Slide from "../components/index";
+
+import Header from "../components/header";
 
 
 class Home extends React.Component {
 	render() {
 		return (
+			<div>
+				<Header/>
 			<div className="main_home">
-				<header className="App-header">
-				<Slide />
-				</header>
+
+				{/* <Slide /> */}
+				{/* <header className="App-header">
+				<div>
+				<div/>
+			</header> */}
 				
 				<div className="fir-para">
 					<h1 className="first-h">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
@@ -71,6 +77,7 @@ class Home extends React.Component {
 					</p>
 				</div>
 <Calander/>
+			</div>
 			</div>
 		);
 	}

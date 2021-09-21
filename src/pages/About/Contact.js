@@ -1,25 +1,66 @@
-import React from 'react';
-//import acxios from 'acxios'
-import "../../assets/About/contact.css"
+import React, { useState } from "react";
+import emailjs from "emailjs-com";
+import { useForm } from "react-hook-form";
 
-class contact extends React.Component{
+import "../../assets/About/contact.css";
 
-    render(){
-        return(
-            <section>
-                <div className="continer_contact">
-                    <div className="item_caontact" >
-                      <h2> remplissiez cet formulere pour s'il vous plait</h2>
-                      <br/>
-                    <label htmlFor="email">
+const Contact = () => {
+	const [successMessage, setSuccessMessage] = useState("");
+	const { register, handleSubmit, errors } = useForm();
+
+    const serviceID = "service_pctcy5l";
+	const temlateID = "template_pctcy5l";
+	const userID = "user_WVUPpv9KoZ5CiYebbx9Fk";
+
+	const onSubmit = (data, r) => {
+		sendEmail(
+			serviceID,
+			temlateID,
+			{
+				name: data.name,
+				phone: data.phone,
+				email: data.email,
+				subject: data.subject,
+				description: data.description,
+			},
+			userID
+		);
+		r.target.reset();
+	};
+    const sendEmail = (serviceID, temlateID, variables, userID) => {
+		emailjs
+			.send(serviceID, temlateID, variables, userID)
+			.then(() => {
+				setSuccessMessage(
+					"La formulair a était envoyé avec succès! je vous contacterai dès que possible"
+				);
+			})
+			.catch((err) => console.error(`something went wrong ${err}`));
+	};
+
+
+	return (
+		<section>
+			<div className="continer_contact">
+                    <form onSubmit={handleSubmit(onSubmit)}>
+				<div className="item_caontact">
+					<h2> remplissiez cet formulere pour s'il vous plait</h2>
+				<span className="sccese-massege-E">{successMessage}</span>
+
+					<br />
+					<label htmlFor="email">
 						<b>Nom</b>
 					</label>
 					<input
 						type="text"
 						placeholder="Enter last Name"
-						name="last_name"
-						required
-						onChange={this.handleChange}
+						name="name"
+						defaultValue=""
+						{...register("name", {
+							required: "inter your mail plaes",
+							maxLength: 20,
+							message: "plese use a name a maximame with 20 caracters ",
+						})}
 					/>
 
 					<label htmlFor="email">
@@ -29,56 +70,33 @@ class contact extends React.Component{
 						type="text"
 						placeholder="Enter Email"
 						name="email"
-						required
-						onChange={this.handleChange}
+						{...register("email", {
+							required: "Plese provide your email ",
+							pattern: /^\S+@\S+$/i,
+							message: "plese use a correct mail",
+						})}
 					/>
-                     <label htmlFor="text">
-                         <b>Écrivez votre  message</b>
-                         </label>
-        <input className="contact_input" type="text
-        " placeholder="Écrivez votre  message"
-         name="description" 
-         required />
-        
-        <button className="sub_but">
-             submite</button>
-        
-                    </div>
-                </div>
-            </section>
-        )
-    }
-}
+					<label htmlFor="text">
+						<b>Écrivez votre message</b>
+					</label>
+					<textarea
+						className="contact_input"
+						type="text"
+						placeholder="Écrivez votre message ici"
+						name="description"
+						{...register("description", {
+							required: "Plase inter your  text",
+							message: "plese fill your  the description ",
+						})}
+                        ></textarea>
 
-export default contact
-// import React from 'react';
-// import emailjs from 'emailjs-com';
+					<button className="sub_but">submite</button>
+            </div>
+            </form>
+			</div>
+				
+		</section>
+	);
+};
 
-// import './ContactUs.css';
-
-// export default function ContactUs() {
-
-//   function sendEmail(e) {
-//     e.preventDefault();
-
-//     emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
-//       .then((result) => {
-//           console.log(result.text);
-//       }, (error) => {
-//           console.log(error.text);
-//       });
-//   }
-
-//   return (
-//     <form className="contact-form" onSubmit={sendEmail}>
-//       <input type="hidden" name="contact_number" />
-//       <label>Name</label>
-//       <input type="text" name="user_name" />
-//       <label>Email</label>
-//       <input type="email" name="user_email" />
-//       <label>Message</label>
-//       <textarea name="message" />
-//       <input type="submit" value="Send" />
-//     </form>
-//   );
-// }
+export default Contact;

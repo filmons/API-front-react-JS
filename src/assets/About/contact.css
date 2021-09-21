@@ -25,6 +25,12 @@
 	width: 22%;
 	opacity: 0.9;
 }
+.sccese-massege-E{
+	font-weight: 600;
+	color: white;
+	background-color: green;
+	margin: 1rem;
+	}
 @media screen and (max-width: 767px) {
 	.continer_contact {
 		justify-content: center;

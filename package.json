@@ -1,6 +1,6 @@
 {
   "homepage": "https://filmons.github.io/Client--front-react-JS/",
-  "name": "mon-app",
+  "name": "API-front-reactJS",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

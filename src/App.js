@@ -47,8 +47,8 @@ function App() {
 					<PrivateRoute path="/Equipe" component={Equipe} />
 					<PrivateRoute path="/Cours" component={Cours} />
 					<PrivateRoute  path="/contact" component={Contact} />
-					<Route exact path="/Aumonerie" component={Aumonerie} />
-					<Route exact path="/Eveil" component={Eveil} />
+					<PrivateRoute exact path="/Aumonerie" component={Aumonerie} />
+					<PrivateRoute exact path="/Eveil" component={Eveil} />
 					<Route exact path="/Scoutisme" component={Scoutisme} />
 					<Route exact path="/Cristianisme" component={Cristianisme} />
 					<Route exact path="/Bateme" component={Bateme} />

@@ -34,3 +34,42 @@
 		padding-bottom: 1%;
 		padding-left: 6%;
 }
+@media screen and (max-width: 767px) {
+    .header-wraper{
+        position: relative;
+        background: url(selasie.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 90vh;
+    }
+    .main-info{
+        display: flex;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: "Roboto Condesed", sans-serif;
+       
+    
+    
+    }
+    .main-info > h1{
+        text-align: "center" ;
+        display: flex;
+            font-size: 4rem;
+            color: rgb(9, 64, 58);
+            text-shadow: 0 0 0.033em #fff, 0 0 0.08em #fff;
+            animation-name: flicker;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            padding-bottom: 1%;
+            padding-left: 6%;
+    }
+
+	}

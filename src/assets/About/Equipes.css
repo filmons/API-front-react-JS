@@ -31,7 +31,7 @@
 .for h1{
 	padding-bottom: 1%;
     color: rgb(9, 64, 58);
-    font-size: 4rem;
+    font-size: 2rem;
 }
 .fir-para {
 	position: relative;
@@ -60,7 +60,7 @@
 		flex-wrap: wrap;
 		align-content: space-around;
 		justify-content: center;
-		padding: 15rem 2rem 7rem;
+		padding: 15rem 0rem 7rem;
 	}
 	.titre {
 		display: flex;
@@ -79,7 +79,7 @@
 	.for h1{
 		padding-top: 35%;
 		color: rgb(9, 64, 58);
-		font-size: 4rem;
+		font-size: 2rem;
 	}
 	.fir-para {
 		position: relative;
@@ -91,13 +91,11 @@
 		color: white;
 		font-size: 1rem;
 	}
-	.all_img_equipe{
-	padding: 1% 2% 3% 3%;
-    border-radius: 20%;
-    margin-left: 4%;
-    width: 24rem;
-    height: 17rem;
-	
-	
+	.all_img_equipe {
+		padding: 1% 2% 2% 2%;
+		border-radius: 20%;
+		margin-left: 0%;
+		width: 24rem;
+		height: 17rem;
 	}
 }

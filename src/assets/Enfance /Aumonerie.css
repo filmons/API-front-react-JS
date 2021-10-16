@@ -104,7 +104,69 @@
 
 	}
 	.foto_Aumonerie{
-		width: 33rem;
+		width:23rem;
 		height: 26rem;
 	}
+}
+@media (max-width: 468px){
+	.conuner_aulonerie {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-items: center;
+		padding: 14rem 3rem 4rem;
+	}
+	.item_aulonerie {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-items: center;
+		padding: 1rem 0rem 4rem;
+	}
+	.item_aulonerie p {
+		font-size: 20px;
+
+	}
+	.item_aulonerie h2{
+		color: rgb(9, 64, 58);;
+		font-weight: 600;
+		position: relative;
+		right: 1%;
+		padding-bottom: 1%;
+	
+	}
+	.Aumonerie_fri{
+		position: absolute;
+		top: 57%;
+		left: 2%;
+		font-size: 2rem;
+	}
+	.Aumonerie_fri h1{
+		background-color:#8B0000;
+		color: white;
+		line-height: normal;
+		letter-spacing: normal;
+	
+	}
+	.Aumonerie_fri p{
+		background-color: white;
+		color: rgb(9, 64, 58);
+		margin-top: 2%;
+		left: 5%;
+		font-size: 20px;
+	}
+	.Aumonerie_A{
+		/* width: 24rem;
+		height: 25rem;
+		padding: 1rem; */
+	
+
+	}
+	.foto_Aumonerie{
+		width:23rem;
+		height: 26rem;
+	}
+
 }

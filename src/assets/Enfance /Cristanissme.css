@@ -1,114 +1,113 @@
 .continer_cristaniseme {
 	display: flex;
 	justify-content: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    padding: 12rem 17rem 4rem;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	padding: 12rem 17rem 4rem;
 }
-.item_cristanism{
+.item_cristanism {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
 	align-items: center;
 	padding: 5rem 3rem 4rem;
+	width: 100%;
 }
-.christianism_fri{
+.christianism_fri {
 	position: absolute;
-    top: 57%;
-    left: 20%;
-    font-size: 2rem;
-
+	top: 57%;
+	left: 20%;
+	font-size: 2rem;
 }
-.christianism_fri p{
+.christianism_fri p {
 	background-color: white;
 	color: rgb(9, 64, 58);
 	margin-top: 2%;
 	left: 5%;
-	
 }
-.item_cristanism h2{
-	color: rgb(9, 64, 58);;
+.item_cristanism h2 {
+	color: rgb(9, 64, 58);
 	font-weight: 600;
 	position: relative;
 	right: 26%;
 	padding-bottom: 1%;
-
-
 }
-.christianism_fri h1{
-	background-color:#8B0000;
+.christianism_fri h1 {
+	background-color: #8b0000;
 	color: white;
 	line-height: normal;
 	letter-spacing: normal;
-
 }
 
-	@media screen and (max-width: 767px) {
-		.continer_cristaniseme {
-			display: flex;
-			padding: 12rem 0rem 4rem;
-		}
-		.item_cristanism {
-			display: flex;
-			justify-content: center;
-			flex-wrap: wrap;
-			flex-direction: column;
-			align-content: center;
-			align-items: center;
-			margin-left: 5rem;
-			margin-right: 5rem;
-			margin-top: 6%;
-		}
-		.item_cristanism{
-			display: flex;
-			flex-direction: column;
-			flex-wrap: nowrap;
-			align-items: center;
-			padding: 1rem 0rem 4rem;
-		}
-		.christianism_fri{
+@media screen and (max-width: 767px) {
+	.continer_cristaniseme {
+		display: flex;
+		padding: 12rem 0rem 4rem;
+	}
+	.item_cristanism {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
+		margin-left: 5rem;
+		margin-right: 5rem;
+		margin-top: 6%;
+	}
+	/* .item_cristanism {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-items: center;
+		padding: 1rem 0rem 4rem;
+
+	} */
+	.christianism_fri {
 		position: absolute;
 		top: 51%;
 		left: 3%;
-		font-size: 2rem
-		
-		}
-		.item_cristanism p{
-			font-size: 20px;
-		}
-		.christianism_fri h6{
-			background-color: white;
-			color: rgb(9, 64, 58);
-			margin-top: 2%;
-			left: 5%;
-			width: 27rem;
-			
-		}
-		.item_cristanism h2{
-			color: rgb(9, 64, 58);;
-			font-weight: 600;
-			position: relative;
-			right: 0%;
-			padding-bottom: 1%;
-		
-		
-		}
-		.christianism_fri h1{
-			background-color:#8B0000;
-			color: white;
-			line-height: normal;
-			letter-spacing: normal;
-			width: 25rem;
-		
-		}
-		.foto_cristina{
-		width: 33rem;
-		height: 26rem;
-		}
-		.continer_cristaniseme p{
-			font-size: 20px;
-		}
+		font-size: 2rem;
 	}
-	
-
+	.item_cristanism 
+ {
+		font-size: 1rem;
+	}
+	.christianism_fri h6 {
+		background-color: white;
+		color: rgb(9, 64, 58);
+		margin-top: 2%;
+		left: 5%;
+		width: 12rem;
+	}
+	.item_cristanism h2 {
+		color: rgb(9, 64, 58);
+		font-weight: 600;
+		position: relative;
+		right: 0%;
+		padding-bottom: 1%;
+	}
+	.christianism_fri h1 {
+		background-color: #8b0000;
+		color: white;
+		line-height: normal;
+		letter-spacing: normal;
+		width: 12rem;
+		font-size: 2rem;
+	}
+	.christianism_fri  {
+		background-color: white;
+		color: rgb(9, 64, 58);
+		margin-top: 2%;
+		left: 5%;
+		width: 78%;
+	}
+	.foto_cristina {
+		width: 24rem;
+		height: 28rem;
+	}
+	.continer_cristaniseme p {
+		font-size: 20px;
+	}
+}

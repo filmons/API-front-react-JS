@@ -99,8 +99,72 @@
 		
 	}
 	.foto_Scoutisme{
-		width: 36rem;
+		width: 27rem;
 		height: 26rem;
 	
 	}
+}
+
+@media (max-width: 468px){
+	.conuner_scoutisme {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-items: center;
+		padding: 10rem 4rem 4rem;
+	}
+	.item_scoutisme {
+		display: flex;
+		justify-content: center;
+		justify-content: center;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-items: center;
+		padding: 1rem 0rem 4rem;
+	}
+	.item_scoutisme p{
+		font-size: 20px;
+
+	}
+	.Scoutisme_fri{
+		position: absolute;
+		top: 48%;
+		left: 2%;
+		font-size: 2rem;
+		
+	
+	}
+	.Scoutisme_fri p{
+		background-color: white;
+		color: rgb(9, 64, 58);
+		margin-top: 2%;
+		left: 5%;
+		font-size: 13px;
+		
+	}
+	.item_scoutisme h2{
+		color: rgb(9, 64, 58);;
+		font-weight: 600;
+		position: relative;
+		right: 1%;
+		padding-bottom: 1%;
+	
+	}
+	.Scoutisme_fri h1{
+		background-color:#8B0000;
+		color: white;
+		line-height: normal;
+		letter-spacing: normal;
+		
+	}
+	.foto_Scoutisme{
+		width: 24rem;
+		height: 24rem;
+	
+	}
+
+}
+@media (max-width: 468px){
+	
 }

@@ -35,7 +35,7 @@
 @media screen and (max-width: 767px) {
 	.continer_contact {
 		justify-content: center;
-		padding: 13rem 3rem 3rem;
+		padding: 9rem 0rem 0rem;
 	}
 	.item_caontact {
 		display: flex;
@@ -43,20 +43,22 @@
 		flex-wrap: nowrap;
 		align-content: center;
 		justify-content: center;
-		margin: auto;
+		padding: 9rem 0rem 0rem;
+    	width: 98%;
+    	height: 50%;
 	}
 	.contact_input {
-		width: 34rem;
-		height: 10rem;
+		width:98%;
+    height: 54rem;
 	}
 	.sub_but {
 		background-color: #04aa6d;
-		color: white;
-		padding: 14px 20px;
-		margin: 2px 21px;
-		border: none;
-		cursor: pointer;
-		width: 22%;
-		opacity: 0.9;
-	}
+    color: white;
+    padding: 14px 20px;
+    margin: 9px 21px;
+    border: none;
+    cursor: pointer;
+    width: 35%;
+    opacity: 0.9;
+}
 }

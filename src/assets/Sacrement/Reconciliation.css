@@ -64,7 +64,7 @@
 		padding: 5% 2% 3% 0%;
 	}
 	.hedrsrec {
-		font-size: 75px;
+		font-size: 56px;
 		color: #aa2513;
 		font-weight: 600;
 		padding-bottom: 13rem;
@@ -72,13 +72,18 @@
 	.continer_reconsulation p {
 		margin: 3%;
 		font-size: 20px;
+		padding: 0rem 0rem 0rem;
 	}
 	.description_fR_un {
 		position: absolute;
 		left: 31%;
 	}
 	.continer_reconsulation h5 {
-		font-size: 2rem;
+		font-size: 1rem;
 		margin: 3%;
+	}
+	.description_fR_un p{
+		font-size: 11px;
+
 	}
 }

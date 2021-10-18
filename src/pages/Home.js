@@ -18,7 +18,7 @@ class Home extends React.Component {
 
 					<div className="fir-para">
 						<h1 className="first-h">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Lorem ipsum 000000000000 dolor sit amet, consectetur adipiscing elit.
 						</h1>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed

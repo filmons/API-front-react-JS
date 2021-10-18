@@ -10,7 +10,7 @@
 	object-position: 50% 50%;
 }
 .hedrsonc {
-	font-size: 74px;
+	font-size: 36px;
 	color: #aa2513;
 	font-weight: 600;
 	padding-bottom: 13rem;
@@ -70,13 +70,14 @@
 	}
 	.continer_oncation p {
 		margin: 3%;
+		font-size: 12px;
 	}
 	.description_fON_un {
 		position: absolute;
 		left: 31%;
 	}
 	.continer_oncation h5 {
-		font-size: 2rem;
+		font-size: 1rem;
 		margin: 3%;
 	}
 }
